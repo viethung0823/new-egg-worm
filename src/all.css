@@ -5192,7 +5192,7 @@ html.ie .home-news-list .news-item__text::selection {
   display: block;
   width: 14px;
   height: 14px;
-  /* background: url(https://goinc.co.jp/assets/images/home/works-arrow-black.svg) top left no-repeat; */
+  background: url("https://goinc.co.jp/assets/images/home/works-arrow-black.svg") top left no-repeat;
   background-size: contain;
   position: absolute;
   top: 0;
