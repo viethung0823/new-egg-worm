@@ -1,45 +1,45 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import $ from "jquery";
+import {useTranslation} from "react-i18next";
+
+$(document).ready(function () {
+	$(".our-business__button--1").click(function () {
+		$(this).toggleClass("active");
+	});
+	$(".our-business__button--2").click(function () {
+		$(this).toggleClass("active");
+	});
+	$(".our-business__button--3").click(function () {
+		$(this).toggleClass("active");
+	});
+});
 
 function OurBusiness() {
-	$(document).ready(function () {
-		$(".our-business__button--1").click(function () {
-			$(this).toggleClass("active");
-		});
-		$(".our-business__button--2").click(function () {
-			$(this).toggleClass("active");
-		});
-		$(".our-business__button--3").click(function () {
-			$(this).toggleClass("active");
-		});
-	});
+	const {t} = useTranslation();
 
 	return (
 		<section className="our-business">
 			<header className="our-business__header">
-				<h2 className="our-business__title">OUR BUSINESS</h2>
+				<h2 className="our-business__title">{t("OB.title")}</h2>
 				<div className="our-business__detail">
 					<h3 className="our-business__title2">
-						<span>How we work</span>
+						<span>{t("OB.subtitle1")}</span>
 					</h3>
-					<p className="our-business__text">
-						We thrive at the intersection of business and creative, collaborating with our partners to truly understand their needs, motivations, challenges, and vision. Through in-depth analysis and exploration, we uncover valuable insights and opportunities. Our end-to-end strategy comes with clearly defined action items whilst providing a roadmap for success. And when it
-						comes to execution, we're here to provide the solutions you need to bring your vision to life.
-					</p>
+					<p className="our-business__text">{t("OB.subtitle2")}</p>
 				</div>
 			</header>
 			<section className="our-creative">
-				<h3 className="our-services__title">OUR SERVICES</h3>
+				<h3 className="our-services__title">{t("OS.title")}</h3>
 				<ul className="our-business__buttons">
 					<li className="our-business__button our-business__button--1">
 						<a>
 							<div className="grad"></div>
 							<div className="label">
-								<span>STRATEGY</span>
+								<span>{t("OS.box1")}</span>
 							</div>
 							<div className="hover">
-								<span>Our dynamic network of strategists, carefully curated for each client and brief, come together under our dedicated strategy team to create extraordinary experiences and deliver exceptional results.</span>
+								<span>{t("OS.box1-content")}</span>
 							</div>
 						</a>
 					</li>
@@ -47,10 +47,10 @@ function OurBusiness() {
 						<a>
 							<div className="grad"></div>
 							<div className="label">
-								<span>CREATION</span>
+								<span>{t("OS.box2")}</span>
 							</div>
 							<div className="hover">
-								<span>We are passionate about designing authentic and unforgettable experiences that resonate with your brand and business on a deep level. Our goal is to create moments that leave a lasting impact, forging a genuine connection between your audience and your company or brand.</span>
+								<span>{t("OS.box2-content")}</span>
 							</div>
 						</a>
 					</li>
@@ -58,10 +58,10 @@ function OurBusiness() {
 						<a>
 							<div className="grad"></div>
 							<div className="label">
-								<span>AMPLIFICATION</span>
+								<span>{t("OS.box3")}</span>
 							</div>
 							<div className="hover">
-								<span>With strategic amplification, we make your message stand out and deeply resonate with your audience amidst all the clutter and noise. By crafting impactful channels using our own tools and across our extensive network, we elevate your voice to create a lasting connection with your target audience.</span>
+								<span>{t("OS.box3-content")}</span>
 							</div>
 						</a>
 					</li>
@@ -69,7 +69,7 @@ function OurBusiness() {
 				<div className="rewards">
 					<div className="rewards__left">
 						<div className="rewards__left-inner">
-							<p>Our approach is tailored to meet your every need, providing dedicated support from strategy development to message amplification, ultimately ensuring your message resonates deeply with your audience.</p>
+							<p>{t("OS.box4")}</p>
 						</div>
 					</div>
 				</div>

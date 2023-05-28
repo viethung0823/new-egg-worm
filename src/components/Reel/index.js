@@ -1,6 +1,7 @@
 import "./index.css";
 import React, {useEffect} from "react";
 import $ from "jquery";
+import {useTranslation} from "react-i18next";
 
 function Reel() {
 	useEffect(() => {
@@ -145,6 +146,8 @@ function Reel() {
 		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
 
+	const {t} = useTranslation();
+
 	return (
 		<>
 			<section id="gl-statement">
@@ -162,22 +165,19 @@ function Reel() {
 				<div className="gl-statement-txt">
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>Hello, we’re EGGWORM.</span>
+						<span>{t("reel.title")}</span>
 					</p>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>As a results-driven Experience Design company, we create empowering encounters that invigorate our partners' brand narratives.</span>
+						<span>{t("reel.subtitle1")}</span>
 					</p>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>
-							These dynamic experiences encompass the physical, digital, and the seamless fusion of both realms in today's ever-evolving world. We're dedicated to helping our partners adapt and flourish in the face of change. Change presents both challenges and opportunities for businesses, and it all begins with a visionary idea - one that we're committed to nurturing from the
-							very beginning until it becomes a reality.
-						</span>
+						<span>{t("reel.subtitle2")}</span>
 					</p>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>We believe in mastering the art of harmonizing work and play for an epic life adventure, because at EGGWORM, we embrace challenges as opportunities and take pride in turning the seemingly impossible into reality while navigating the Japanese market.</span>
+						<span>{t("reel.subtitle3")}</span>
 					</p>
 				</div>
 			</section>
