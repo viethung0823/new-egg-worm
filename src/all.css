@@ -9374,7 +9374,7 @@ html.edge .menu-button span {
   width: 94.4444444444444vw;
   height: 60%;
   display: block;
-  /* background-image: url(https://goinc.co.jp/assets/images/common/menu-logo.svg); */
+  background-image: url("https://goinc.co.jp/assets/images/common/menu-logo.svg");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
