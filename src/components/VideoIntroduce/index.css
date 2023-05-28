@@ -1,0 +1,228 @@
+.my-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.my-container * {
+  padding-left: unset !important;
+  padding-right: unset !important;
+  margin-right: unset !important;
+  margin-left: unset !important;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+
+/* Set video iframe to fill video wrapper */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.showreel-playbutton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  letter-spacing: 1px;
+  will-change: transform;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+  padding: 50px !important;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+#active-circle {
+  position: absolute;
+  color: #fff;
+  z-index: 10000000000;
+  pointer-events: none;
+  display: block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1), width 0.5s cubic-bezier(0.16, 1, 0.3, 1), height 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: height 0.5s cubic-bezier(0.16, 1, 0.3, 1), width 0.5s cubic-bezier(0.16, 1, 0.3, 1), height 0.5s cubic-bezier(0.16, 1, 0.3, 1), -webkit-transform 0.15s cubic-bezier(0.16, 1, 0.3, 1) -webkit-transform: translate(0, -50%);
+}
+
+#active-circle:not(.el-hidden) {
+  width: 90px !important;
+  height: 90px !important;
+}
+
+#active-circle::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 18px;
+  background: url("https://goinc.co.jp/assets/images/common/play-button.svg") top left no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: -webkit-transform 0.1s linear;
+  transition: -webkit-transform 0.1s linear;
+  -o-transition: transform 0.1s linear;
+  transition: transform 0.1s linear;
+  transition: transform 0.1s linear, -webkit-transform 0.1s linear;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  -ms-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1)
+}
+
+.showreel-playbutton.disabled {
+  display: none
+}
+
+.showreel-playbutton .text {
+  -webkit-transition: opacity 0.1s linear;
+  -o-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear
+}
+
+.showreel-playbutton .circle {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+
+}
+
+
+@media (min-width: 769px) {}
+
+@media (max-width: 768px) {
+  .showreel-playbutton {
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+
+  }
+
+  .showreel-playbutton .circle:before {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 18px;
+    background: url("https://goinc.co.jp/assets/images/common/play-button.svg") top left no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: -webkit-transform 0.1s linear;
+    transition: -webkit-transform 0.1s linear;
+    -o-transition: transform 0.1s linear;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .showreel-playbutton .text {
+    opacity: 0
+  }
+
+  .showreel-playbutton .circle {
+    width: 10.66667vw;
+    height: 10.66667vw;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+
+  .showreel-playbutton .circle:before {
+    width: 3.46667vw;
+    height: 2.4vw;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1)
+  }
+}
+
+html.is-ipad .showreel-playbutton {
+  top: 50% !important;
+  left: 50% !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important
+}
+
+html.is-ipad .showreel-playbutton .text {
+  opacity: 0
+}
+
+html.is-ipad .showreel-playbutton .circle {
+  width: 90px;
+  height: 90px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+html.is-ipad .showreel-playbutton .circle:before {
+  width: 26px;
+  height: 18px;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  -ms-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1)
+}
+
+.el-hidden {
+  opacity: 0;
+}
+
+.showreel-vimeo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none
+}
+
+.showreel-vimeo iframe {
+  width: 100%
+}
+
+.showreel-vimeo.active {
+  opacity: 1;
+  pointer-events: auto
+}
+
+#vimeoAutoID {
+  filter: brightness(0.25);
+}
