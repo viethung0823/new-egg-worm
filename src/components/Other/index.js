@@ -18,7 +18,7 @@ function Other() {
 			<div class="home-other-item">
 				<a href="/members/" class="">
 					<div class="home-other-item__image">
-						<img data-src="/data/uploads/2022/10/home-members2.jpg?20230510022158" src="/data/uploads/2022/10/home-members2.jpg?20230510022158" lazy="loaded" class="loaded"></img>
+						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" lazy="loaded" class="loaded"></img>
 					</div>
 					<div class="home-other-item__cover"></div>
 					<div class="home-other-item__title">
@@ -29,7 +29,7 @@ function Other() {
 			<div class="home-other-item">
 				<a href="/contact/?joinus=1" class="">
 					<div class="home-other-item__image">
-						<img data-src="/data/uploads/2021/04/home-joinus.jpg?20230510022158" src="/data/uploads/2021/04/home-joinus.jpg?20230510022158" lazy="loaded" class="loaded"></img>
+						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" lazy="loaded" class="loaded"></img>
 					</div>
 					<div class="home-other-item__cover"></div>
 					<div class="home-other-item__title">
