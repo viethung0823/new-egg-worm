@@ -22,7 +22,7 @@ function Other() {
 					</div>
 					<div class="home-other-item__cover"></div>
 					<div class="home-other-item__title">
-						MEMBERS<span></span>
+						FOUNDERS<span></span>
 					</div>
 				</a>
 			</div>

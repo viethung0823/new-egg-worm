@@ -8,6 +8,7 @@ import HomeWorks from "./components/HomeWorks/index.js";
 import OurClients from "./components/OurClients/index.js";
 import News from "./components/News/index.js";
 import Other from "./components/Other/index.js";
+import HomeGear from "./components/HomeGear/index.js";
 import $ from "jquery";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 			<OurClients></OurClients>
 			<News></News>
 			<Other></Other>
+			<HomeGear></HomeGear>
 		</>
 	);
 }
