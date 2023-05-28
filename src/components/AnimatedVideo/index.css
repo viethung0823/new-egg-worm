@@ -1,0 +1,33 @@
+.backBg {
+  background: #000
+}
+
+.VideoPlayer {
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100% !important;
+  height: 100vh !important;
+
+  &>div>iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 116vh;
+    border: none;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+
+  &>video {
+    object-fit: cover;
+  }
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  .Video>div>iframe {
+    width: 177.78vh;
+  }
+}

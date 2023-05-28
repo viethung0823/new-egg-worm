@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./all.css";
+import AnimatedVideo from "./components/AnimatedVideo/index.js";
+import Reel from "./components/Reel/index.js";
+import WhoWeAre from "./components/WhoWeAre/index.js";
+import OurBusiness from "./components/OurBusiness/index.js";
+import HomeWorks from "./components/HomeWorks/index.js";
+import OurClients from "./components/OurClients/index.js";
+import News from "./components/News/index.js";
+import Other from "./components/Other/index.js";
+import $ from "jquery";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	$(document).ready(function () {
+		console.log("loaded");
+		$("#siteWrapper").appendTo(".app");
+	});
+
+	return (
+		<>
+			<AnimatedVideo></AnimatedVideo>
+			<Reel></Reel>
+			<WhoWeAre></WhoWeAre>
+			<OurBusiness></OurBusiness>
+			<HomeWorks></HomeWorks>
+			<OurClients></OurClients>
+			<News></News>
+			<Other></Other>
+		</>
+	);
 }
 
 export default App;
