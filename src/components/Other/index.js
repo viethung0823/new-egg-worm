@@ -14,25 +14,25 @@ function Other() {
 		// $('section[data-section-id="6472e7d959a4f10c5e5afedc"]').remove();
 	}, []);
 	return (
-		<section class="home-other">
-			<div class="home-other-item">
-				<a href="/members/" class="">
-					<div class="home-other-item__image">
-						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" lazy="loaded" class="loaded"></img>
+		<section className="home-other">
+			<div className="home-other-item">
+				<a href="/members/" className="">
+					<div className="home-other-item__image">
+						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" lazy="loaded" className="loaded"></img>
 					</div>
-					<div class="home-other-item__cover"></div>
-					<div class="home-other-item__title">
+					<div className="home-other-item__cover"></div>
+					<div className="home-other-item__title">
 						FOUNDERS<span></span>
 					</div>
 				</a>
 			</div>
-			<div class="home-other-item">
-				<a href="/contact/?joinus=1" class="">
-					<div class="home-other-item__image">
-						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" lazy="loaded" class="loaded"></img>
+			<div className="home-other-item">
+				<a href="/contact/?joinus=1" className="">
+					<div className="home-other-item__image">
+						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" lazy="loaded" className="loaded"></img>
 					</div>
-					<div class="home-other-item__cover"></div>
-					<div class="home-other-item__title">
+					<div className="home-other-item__cover"></div>
+					<div className="home-other-item__title">
 						JOIN US<span></span>
 					</div>
 				</a>

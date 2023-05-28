@@ -4,13 +4,13 @@ import React from "react";
 
 function HomeGear() {
 	return (
-		<section class="home-gear">
+		<section className="home-gear">
 			<a href="" title="EG Swag" target="_blank">
-				<div class="home-gear__image">
-					<img alt="swag shop" class="pc-only loaded" data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" lazy="loaded"></img>
-					<img alt="swag shop" class="sp-only" data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" lazy="loading"></img>
+				<div className="home-gear__image">
+					<img alt="swag shop" className="pc-only loaded" data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" lazy="loaded"></img>
+					<img alt="swag shop" className="sp-only" data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ewShop.png" lazy="loading"></img>
 				</div>
-				<div class="arrow">
+				<div className="arrow">
 					<span></span>
 				</div>
 			</a>

@@ -17,14 +17,14 @@ function News() {
 		$('section[data-section-id="6472e7d959a4f10c5e5afedc"]').remove();
 	}, []);
 	return (
-		<section class="home-news">
-			<header class="home-news-header">
-				<h2 class="home-news-title">NEWS</h2>{" "}
-				<a href="/news/" class="home-news-link arrow-button active">
-					<span class="text">View All</span> <span class="arrow"></span> <span class="line"></span>
+		<section className="home-news">
+			<header className="home-news-header">
+				<h2 className="home-news-title">NEWS</h2>{" "}
+				<a href="/news/" className="home-news-link arrow-button active">
+					<span className="text">View All</span> <span className="arrow"></span> <span className="line"></span>
 				</a>
 			</header>
-			<div class="home-news-content"></div>
+			<div className="home-news-content"></div>
 		</section>
 	);
 }

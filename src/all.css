@@ -1110,7 +1110,12 @@ html.is-ipad .footer-inner {
 .footer__policy {
   float: right;
   font-size: 0;
-  padding-top: 3px
+  padding-top: 3px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 18px;
 }
 
 @media (max-width: 1440px) {
@@ -1131,13 +1136,11 @@ html.is-ipad .footer-inner {
 .footer-twitter-link {
   color: #fff;
   position: relative;
-  padding-left: 28px;
   -webkit-transition: color 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   -o-transition: color 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: color 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   display: inline-block;
   font-size: 14px;
-  margin-right: 40px;
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 700;
   font-style: normal
@@ -1237,7 +1240,10 @@ html.is-ipad .footer-inner {
 }
 
 .footer__inner2 {
-  padding: 0 80px
+  padding: 24px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .footer__inner2:after {
@@ -1333,7 +1339,7 @@ html.is-ipad .footer-inner {
   display: block;
   width: 90px;
   height: 90px;
-  /* background-image: url(https://goinc.co.jp/assets/images/common/backtop-arrow-pc.svg); */
+  background-image: url("https://goinc.co.jp/assets/images/common/backtop-arrow-pc.svg");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -1364,7 +1370,7 @@ html.is-ipad .footer-inner {
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     transform: scale(1, 1);
-    /* background-image: url(https://goinc.co.jp/assets/images/common/backtop-arrow.svg); */
+    background-image: url("https://goinc.co.jp/assets/images/common/backtop-arrow.svg");
     width: 9.33333vw;
     height: 9.33333vw
   }
@@ -4109,7 +4115,8 @@ html.is-ipad .home-works-item__inner {
     float: none;
     position: relative;
     width: 100%;
-    margin-bottom: 12vw
+    margin-bottom: 12vw;
+    margin-top: 24px;
   }
 }
 

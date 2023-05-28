@@ -11,9 +11,9 @@ function OurClients() {
 		$('section[data-section-id="6472e1519b91f935e91728eb"]').remove();
 	}, []);
 	return (
-		<section class="our-client">
-			<div class="our-client__content">
-				<h2 class="our-client__title">OUR CLIENTS</h2>
+		<section className="our-client">
+			<div className="our-client__content">
+				<h2 className="our-client__title">OUR CLIENTS</h2>
 			</div>
 		</section>
 	);
