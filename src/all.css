@@ -2095,7 +2095,6 @@ html.is-ipad .showreel-playbutton .circle:before {
   font-weight: bold;
   line-height: 30px;
   margin: -7px 0;
-  text-align: justify
 }
 
 @media (max-width: 768px) {
@@ -2964,7 +2963,6 @@ html.is-ipad .home-works-item__inner {
   margin: -7px 0;
   font-weight: bold;
   color: #000;
-  text-align: justify
 }
 
 @media (max-width: 768px) {
@@ -3056,7 +3054,7 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 1000px) {
   .our-business__button {
-    height: 220px
+    height: 280px
   }
 }
 
@@ -3189,7 +3187,6 @@ html.is-ipad .home-works-item__inner {
   -o-transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1), transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1), transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1), transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-  text-align: justify
 }
 
 @media (max-width: 768px) {
@@ -4106,7 +4103,7 @@ html.is-ipad .home-works-item__inner {
 }
 
 .home-news-header {
-  width: 25%;
+  width: 15%;
   float: left
 }
 
@@ -5053,7 +5050,7 @@ html.ie .home-news-list .news-item__text::selection {
   display: block;
   width: 11px;
   height: 17px;
-  /* background: url(https://goinc.co.jp/assets/images/home/map-icon.svg) top left no-repeat; */
+  background: url("https://goinc.co.jp/assets/images/home/map-icon.svg") top left no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;

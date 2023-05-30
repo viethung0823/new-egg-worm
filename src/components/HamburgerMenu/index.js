@@ -1,6 +1,7 @@
 (function () {
-  // styling
-  const hamburgerStyle = `
+	// styling
+
+	const hamburgerStyle = `
   .hamburger-button {
     width: 38px;
     height: 38px;
@@ -104,25 +105,25 @@
     transform: translateY(-4px);
   }
   `;
-  const overlayMenuStyle = ``;
-  const styleElm = document.createElement("style");
-  styleElm.textContent = hamburgerStyle + overlayMenuStyle;
-  document.head.appendChild(styleElm);
+	const overlayMenuStyle = ``;
+	const styleElm = document.createElement("style");
+	styleElm.textContent = hamburgerStyle + overlayMenuStyle;
+	document.head.appendChild(styleElm);
 
-  // menu component
-  const hamburgerMenuICon = document.createElement( "div" );
-  hamburgerMenuICon.classList.add( "hamburger-button" );
-  hamburgerMenuICon.id = "hamburgerMenu";
-  hamburgerMenuICon.innerHTML = `
+	// menu component
+	const hamburgerMenuICon = document.createElement("div");
+	hamburgerMenuICon.classList.add("hamburger-button");
+	hamburgerMenuICon.id = "hamburgerMenu";
+	hamburgerMenuICon.innerHTML = `
   <span></span>
   <span></span>
   `;
-  document.body.appendChild( hamburgerMenuICon );
+	document.body.appendChild(hamburgerMenuICon);
 
-  // overlay component
-  const overlayMenu = document.createElement( "div" );
-  overlayMenu.classList.add( "menu-wrapper" );
-  overlayMenu.innerHTML = `
+	// overlay component
+	const overlayMenu = document.createElement("div");
+	overlayMenu.classList.add("menu-wrapper");
+	overlayMenu.innerHTML = `
     <div class="menu-overlay"></div>
     <div class="menu">
     <div class="menu-inner">
@@ -146,19 +147,19 @@
         <div class="footer__copyright">© <span class="footer__year">2023</span> Eggworm inc. All Rights Reserved.</div>
       </div>
     </div>
-  `
-  document.body.appendChild( overlayMenu );
+  `;
+	document.body.appendChild(overlayMenu);
 
-  // logic
-  hamburgerMenuICon.addEventListener( 'click', function () {
-    this.classList.toggle( 'active' );
+	// logic
+	hamburgerMenuICon.addEventListener("click", function () {
+		this.classList.toggle("active");
 
-    const menuOverlay = document.querySelector(".menu-overlay");
-    menuOverlay.classList.toggle( 'active' );
-    menuOverlay.classList.toggle( 'motion' );
+		const menuOverlay = document.querySelector(".menu-overlay");
+		menuOverlay.classList.toggle("active");
+		menuOverlay.classList.toggle("motion");
 
-    const menu = document.querySelector(".menu");
-    menu.classList.toggle( 'active' );
-    menu.classList.toggle( 'motion' );
-  });
+		const menu = document.querySelector(".menu");
+		menu.classList.toggle("active");
+		menu.classList.toggle("motion");
+	});
 })();

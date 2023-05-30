@@ -29,7 +29,7 @@ function Other() {
 			<div className="home-other-item">
 				<a href="/contact/?joinus=1" className="">
 					<div className="home-other-item__image">
-						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.jpg" lazy="loaded" className="loaded"></img>
+						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/joinUs.png" lazy="loaded" className="loaded"></img>
 					</div>
 					<div className="home-other-item__cover"></div>
 					<div className="home-other-item__title">

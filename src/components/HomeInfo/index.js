@@ -1,39 +1,36 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
 
 function HomeInfo() {
+	const {t} = useTranslation();
+
 	return (
 		<section className="home-info">
-			<h2 className="home-info__title">COMPANY INFO</h2>
+			<h2 className="home-info__title">{t("CI.title")}</h2>
 			<div className="home-info-content">
 				<dl>
-					<dt>会社名</dt>
-					<dd>EGGWORM</dd>
-					<dt>設　立</dt>
+					<dt>{t("CI.companyName")}</dt>
+					<dd>EGGWORM K.K</dd>
+					<dt>{t("CI.CEO")}</dt>
+					<dd>Masaki Kawamura</dd>
+					<dt>{t("CI.date")}</dt>
 					<dd>2017年1月5日</dd>
-					<dt>役　員</dt>
-					<dd>三浦崇宏 / 福本龍馬</dd>
 				</dl>
 			</div>
 			<div className="home-info-content">
 				<dl>
-					<dt>所在地</dt>
+					<dt>{t("CI.address")}</dt>
 					<dd>
-						<span className="home-info__address">
-							〒106-0032<br></br>
-							東京都港区六本木3-17-10<br></br>
-							ROPPONGI DUPLEX TOWER 2F
-						</span>{" "}
-						<a href="https://www.google.co.jp/maps/place/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEGO/@35.6618393,139.7347131,17z/data=!3m1!4b1!4m5!3m4!1s0x60188bde13a2e35b:0x75721a8cac63193a!8m2!3d35.661835!4d139.7369018?hl=ja&amp;shorturl=1" target="_blank" className="home-info__googlemap-link">
+						<span className="home-info__address">Higashi 1-4-6 1F, Shibuya-Ku, Tokyo</span>{" "}
+						<a href="https://goo.gl/maps/FamY43u1SFePyUzb8?coh=178571&entry=tt" target="_blank" className="home-info__googlemap-link">
 							<div className="text">
 								Google Map<span className="line"></span>
 							</div>
 						</a>
 					</dd>
+					<dt>{t("CI.phoneNumber")}</dt>
+					<dd>+81-3-6277-0087</dd>
 				</dl>
-				<p className="home-info__text">
-					外苑東通り沿いの階段か、ローソン横の<br></br>
-					エレベータで2Fにお上がりください
-				</p>
 			</div>
 			<div className="home-contact">
 				<a href="/contact/" className="" title="CONTACT">

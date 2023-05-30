@@ -14,7 +14,10 @@
 	"OB": {
 		"title": "OUR BUSINESS",
 		"subtitle1": "How we work",
-		"subtitle2": "We thrive at the intersection of business and creative, collaborating with our partners to truly understand their needs, motivations, challenges, and vision. Through in-depth analysis and exploration, we uncover valuable insights and opportunities. Our end-to-end strategy comes with clearly defined action items whilst providing a roadmap for success. And when it comes to execution, we're here to provide the solutions you need to bring your vision to life."
+		"subtitle2": "We thrive at the intersection of business and creative, collaborating with our partners to truly understand their needs, motivations, challenges, and vision. Through in-depth analysis and exploration, we uncover valuable insights and opportunities. Our end-to-end strategy comes with clearly defined action items whilst providing a roadmap for success. And when it comes to execution, we're here to provide the solutions you need to bring your vision to life.",
+		"boxTitle1": "OUR BRANDS",
+		"boxTitle2": "MEDIA",
+		"boxTitle3": "CONTENT"
 	},
 	"OS": {
 		"title": "OUR SERVICES",
@@ -25,5 +28,16 @@
 		"box3": "AMPLIFICATION",
 		"box3-content": "With strategic amplification, we make your message stand out and deeply resonate with your audience amidst all the clutter and noise. By crafting impactful channels using our own tools and across our extensive network, we elevate your voice to create a lasting connection with your target audience.",
 		"box4": "Our approach is tailored to meet your every need, providing dedicated support from strategy development to message amplification, ultimately ensuring your message resonates deeply with your audience."
+	},
+	"OC": {
+		"title": "OUR PARTNERS"
+	},
+	"CI": {
+		"title": "COMPANY INFO",
+		"companyName": "Company name",
+		"CEO": "CEO",
+		"date": "Date of foundation",
+		"address": "Address",
+		"phoneNumber": "Phone number"
 	}
 }

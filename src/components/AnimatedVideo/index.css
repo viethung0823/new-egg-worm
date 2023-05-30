@@ -40,7 +40,7 @@ relative-pos {
   position: absolute;
   top: 50px;
   right: 150px;
-  filter: drop-shadow(0 0 6px white);
+  filter: drop-shadow(0 0 3px white);
 }
 
 .switch {
@@ -50,7 +50,8 @@ relative-pos {
 
 .switch>span {
   position: absolute;
-  top: 14px;
+  transform: translateY(-50%);
+  top: 50%;
   pointer-events: none;
   font-family: 'Helvetica', Arial, sans-serif;
   font-weight: bold;
