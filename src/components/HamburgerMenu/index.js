@@ -117,6 +117,7 @@
 	hamburgerMenuICon.innerHTML = `
   <span></span>
   <span></span>
+  <span></span>
   `;
 	document.body.appendChild(hamburgerMenuICon);
 

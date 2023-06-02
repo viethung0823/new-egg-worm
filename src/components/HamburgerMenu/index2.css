@@ -107,7 +107,7 @@
   width: 94.4444444444444vw;
   height: 60%;
   display: block;
-  background-image: url("https://goinc.co.jp/assets/images/common/menu-logo.svg");
+  /* background-image: url("https://goinc.co.jp/assets/images/common/menu-logo.svg"); */
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -376,6 +376,10 @@
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px)
+}
+
+.hamburger-button.active span:last-child {
+ display: none;
 }
 
 .menu-button.active span:nth-of-type(2) {
