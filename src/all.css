@@ -3827,7 +3827,7 @@ html.is-ipad .home-works-item__inner {
   display: block;
   width: 10px;
   height: 10px;
-  /* background: url(https://goinc.co.jp/assets/images/home/blank-white-icon.svg) top left no-repeat; */
+  background: url("https://goinc.co.jp/assets/images/home/blank-white-icon.svg") top left no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -8594,8 +8594,7 @@ html.ie .home-news-list .news-item__text::selection {
   line-height: 2
 }
 
-.members-detail__text span {
-}
+.members-detail__text span {}
 
 .members-detail__text span b {
   text-align: left;
