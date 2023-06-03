@@ -55,7 +55,7 @@ relative-pos {
   pointer-events: none;
   font-family: 'Helvetica', Arial, sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
   width: 50%;
@@ -100,14 +100,14 @@ input.check-toggle-round-flat:checked~.on {
 }
 
 input.check-toggle-round-flat+label {
-  padding: 2px;
-  width: 100px;
-  height: 40px;
+  align-items: center;
   background-color: #fff;
   border-radius: 60px;
   display: flex;
-  align-items: center;
+  height: 30px;
   justify-content: center;
+  padding: 2px;
+  width: 80px;
 }
 
 input.check-toggle-round-flat+label:before,
@@ -130,7 +130,7 @@ input.check-toggle-round-flat+label:after {
   top: 0px;
   left: 0px;
   bottom: 0px;
-  width: 56px;
+  width: 55%;
   background-color: #fff;
   -webkit-border-radius: 52px;
   -moz-border-radius: 52px;
@@ -146,5 +146,5 @@ input.check-toggle-round-flat+label:after {
 input.check-toggle-round-flat:checked+label {}
 
 input.check-toggle-round-flat:checked+label:after {
-  margin-left: 44px;
+  margin-left: 37px;
 }
