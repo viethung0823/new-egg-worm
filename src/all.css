@@ -804,7 +804,9 @@ html.is-ipad .footer-inner {
   display: block;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 58px
+  height: 58px;
+  font-size: 42px;
+  font-weight: 500;
 }
 
 @media (min-width: 1440px) {
@@ -828,7 +830,8 @@ html.is-ipad .footer-inner {
   .footer-menu__item a,
   .footer-menu__item span {
     width: 47.2vw;
-    height: 7.2vw
+    height: 7.2vw;
+    font-size: 28px;
   }
 }
 
@@ -9388,7 +9391,7 @@ html.edge .menu-button span {
   width: 94.4444444444444vw;
   height: 60%;
   display: block;
-  background-image: url("https://goinc.co.jp/assets/images/common/menu-logo.svg");
+  /* background-image: url("https://goinc.co.jp/assets/images/common/menu-logo.svg"); */
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -9473,7 +9476,7 @@ html.edge .menu-button span {
   .menu .footer-menu__item span,
   .menu .footer-menu__item a {
     width: 67.46667vw;
-    height: 10.4vw
+    font-size: 34px;
   }
 }
 
@@ -10669,4 +10672,107 @@ input[type="checkbox"]:checked+.security-check-label span:before {
   -webkit-transform: translateX(0px);
   -ms-transform: translateX(0px);
   transform: translateX(0px)
+}
+
+.hamburger-button {
+  width: 38px;
+  height: 38px;
+  padding: 13px 0;
+  position: absolute;
+  top: 54px;
+  right: 80px;
+  cursor: pointer;
+  mix-blend-mode: difference;
+  z-index: 10002;
+  will-change: transform;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: -webkit-transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  -o-transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1), -webkit-transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+
+  /* animation */
+  opacity: 0;
+  -webkit-transform: translateX(10px) scaleX(0);
+  -ms-transform: translateX(10px) scaleX(0);
+  transform: translateX(10px) scaleX(0);
+
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.hamburger-button span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 8px;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: -webkit-transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(10px) scaleX(0);
+    -ms-transform: translateX(10px) scaleX(0);
+    transform: translateX(10px) scaleX(0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px) scaleX(1);
+    -ms-transform: translateX(0px) scaleX(1);
+    transform: translateX(0px) scaleX(1);
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger-button:hover span:nth-of-type(1) {
+    -webkit-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+
+  .hamburger-button.active:hover span:nth-of-type(1) {
+    -webkit-transform: translateY(5px) rotate(45deg);
+    -ms-transform: translateY(5px) rotate(45deg);
+    transform: translateY(5px) rotate(45deg);
+  }
+
+  .hamburger-button.active:hover span:nth-of-type(2) {
+    -webkit-transform: translateY(-5px) rotate(-45deg);
+    -ms-transform: translateY(-5px) rotate(-45deg);
+    transform: translateY(-5px) rotate(-45deg);
+  }
+
+
+  .hamburger-button:hover span:nth-of-type(2) {
+    -webkit-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+}
+
+.hamburger-button.active span:nth-of-type(1) {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.hamburger-button.active span:nth-of-type(2) {
+  -webkit-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
 }
