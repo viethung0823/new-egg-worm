@@ -11,8 +11,6 @@ function HomeInfo() {
 				<dl>
 					<dt>{t("CI.companyName")}</dt>
 					<dd>{t("CI.companyNameValue")}</dd>
-					<dt>{t("CI.companyName")}</dt>
-					<dd>{t("CI.companyNameValue")}</dd>
 					<dt>{t("CI.CEO")}</dt>
 					<dd>{t("CI.CEOValue")}</dd>
 					<dt>{t("CI.date")}</dt>
