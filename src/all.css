@@ -2043,7 +2043,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 .who-we-are {
   position: relative;
-  padding: 218px 145px 178px
+  padding: 80px 145px;
 }
 
 .who-we-are:after {
@@ -2110,7 +2110,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 .home-works {
   color: #fff;
-  padding: 130px 0 0;
+  padding: 50px 0 0;
   position: relative
 }
 
@@ -2121,7 +2121,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 }
 
 .home-works-header {
-  padding: 0 145px 150px
+  padding: 0 145px 80px
 }
 
 .home-works-header:after {
@@ -2132,7 +2132,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 @media (max-width: 1440px) {
   .home-works-header {
-    padding: 0vw 10.06944vw 10.41667vw 10.06944vw
+    padding: 0vw 10.06944vw 80px 10.06944vw
   }
 }
 
@@ -2559,6 +2559,8 @@ html.is-ipad .home-works-item__inner {
   margin-bottom: 40px;
   color: #aaaaaa;
   font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
 }
 
 @media (max-width: 768px) {
@@ -2829,8 +2831,8 @@ html.is-ipad .home-works-item__inner {
 
 .our-business__header {
   position: relative;
-  padding: 0 0 60px;
-  margin-bottom: 60px;
+  padding: 0 0 80px;
+  margin-bottom: 80px;
   border-bottom: 1px solid #cccccc
 }
 
@@ -4006,7 +4008,7 @@ html.is-ipad .home-works-item__inner {
   background-color: #fff;
   width: 100%;
   position: relative;
-  padding: 200px 144px 160px 144px
+  padding: 80px 145px;
 }
 
 @media (max-width: 1440px) {
@@ -4104,7 +4106,7 @@ html.is-ipad .home-works-item__inner {
 
 .home-news {
   background-color: #f6f6f6;
-  padding: 200px 0 200px 144px;
+  padding: 80px 145px;
   position: relative
 }
 
@@ -4851,7 +4853,7 @@ html.ie .home-news-list .news-item__text::selection {
 
 .home-info {
   background-color: #fff;
-  padding: 270px 144px 160px;
+  padding: 80px 144px;
   font-size: 0;
   position: relative
 }
