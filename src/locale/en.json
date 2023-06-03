@@ -35,9 +35,14 @@
 	"CI": {
 		"title": "COMPANY INFO",
 		"companyName": "Company name",
+		"companyNameValue": "EGGWORM K.K",
 		"CEO": "CEO",
+		"CEOValue": "Masaki Kawamura",
 		"date": "Date of foundation",
+		"dateValue": "26.01.2010",
 		"address": "Address",
-		"phoneNumber": "Phone number"
+		"addressValue": "Higashi 1-4-6 1F, Shibuya-Ku,Tokyo",
+		"phoneNumber": "Phone number",
+		"phoneNumberValue": "+81-3-6277-0087"
 	}
 }

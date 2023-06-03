@@ -33,11 +33,16 @@
 		"title": "当社のパートナー"
 	},
 	"CI": {
-		"title": "会社概要",
-		"companyName": "会社名",
-		"CEO": "役員",
-		"date": "設立",
-		"address": "所在地",
-		"phoneNumber": "電話番号"
+		"title": "会社情報",
+		"companyName": "設立資本金",
+		"companyNameValue": "5百万円",
+		"CEO": "CEO",
+		"CEOValue": "川村真樹",
+		"date": "設立日",
+		"dateValue": "2010年1月26日",
+		"address": "設立日",
+		"addressValue": "150-0011 東京都渋谷区東1-4-6",
+		"phoneNumber": "電話番号",
+		"phoneNumberValue": "+81-3-6277-0087"
 	}
 }

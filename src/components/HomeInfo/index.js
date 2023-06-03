@@ -10,18 +10,18 @@ function HomeInfo() {
 			<div className="home-info-content">
 				<dl>
 					<dt>{t("CI.companyName")}</dt>
-					<dd>EGGWORM K.K</dd>
+					<dd>{t("CI.companyNameValue")}</dd>
 					<dt>{t("CI.CEO")}</dt>
-					<dd>Masaki Kawamura</dd>
+					<dd>{t("CI.CEOValue")}</dd>
 					<dt>{t("CI.date")}</dt>
-					<dd>2017年1月5日</dd>
+					<dd>{t("CI.dateValue")}</dd>
 				</dl>
 			</div>
 			<div className="home-info-content">
 				<dl>
 					<dt>{t("CI.address")}</dt>
 					<dd>
-						<span className="home-info__address">Higashi 1-4-6 1F, Shibuya-Ku, Tokyo</span>{" "}
+						<span className="home-info__address">{t("CI.addressValue")}</span>{" "}
 						<a href="https://goo.gl/maps/FamY43u1SFePyUzb8?coh=178571&entry=tt" target="_blank" className="home-info__googlemap-link">
 							<div className="text">
 								Google Map<span className="line"></span>
@@ -29,7 +29,7 @@ function HomeInfo() {
 						</a>
 					</dd>
 					<dt>{t("CI.phoneNumber")}</dt>
-					<dd>+81-3-6277-0087</dd>
+					<dd>{t("CI.phoneNumberValue")}</dd>
 				</dl>
 			</div>
 			<div className="home-contact">
