@@ -34,8 +34,10 @@
 	},
 	"CI": {
 		"title": "会社情報",
-		"companyName": "設立資本金",
-		"companyNameValue": "5百万円",
+		"startingCapital": "設立資本金",
+		"startingCapitalValue": "5百万円",
+		"companyName": "会社名",
+		"companyNameValue": "EGGWORM K.K",
 		"CEO": "CEO",
 		"CEOValue": "川村真樹",
 		"date": "設立日",

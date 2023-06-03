@@ -1256,7 +1256,7 @@ html.is-ipad .footer-inner {
 
 @media (max-width: 768px) {
   .footer__inner2 {
-    padding: 0vw 4.66667vw 7.33333vw 4.66667vw
+    padding: 24px 0;
   }
 }
 
@@ -2116,7 +2116,8 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 @media (max-width: 768px) {
   .home-works {
-    padding-top: 24vw
+    padding-top: unset;
+    padding: unset;
   }
 }
 
@@ -3252,7 +3253,7 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 768px) {
   .rewards {
-    margin-bottom: 13.33333vw
+    margin-bottom: 4.33333vw
   }
 }
 
@@ -3444,7 +3445,7 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 768px) {
   .our-services {
-    padding-bottom: 24vw
+    padding: 24vw 0;
   }
 }
 
@@ -3622,7 +3623,8 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 768px) {
   .our-services-item__inner {
-    height: 42.93333vw
+    height: 42.93333vw;
+    border: unset
   }
 }
 
@@ -4898,15 +4900,11 @@ html.ie .home-news-list .news-item__text::selection {
 }
 
 .home-info-content {
-  width: 22%;
+  width: 25%;
   display: inline-block;
   vertical-align: top;
   font-size: 16px;
   margin: 0 0 110px 0
-}
-
-.home-info-content:first-of-type {
-  width: 28%
 }
 
 @media (max-width: 1440px) {
@@ -4958,7 +4956,7 @@ html.ie .home-news-list .news-item__text::selection {
     font-size: 2.66667vw;
     margin: -.66667vw 0vw -.66667vw 0vw;
     padding-bottom: 3.06667vw;
-    width: 20%;
+    width: 100%;
     float: left
   }
 }

@@ -77,11 +77,11 @@ function HomeWorks() {
 					</div>
 				))}
 			</div>
-			{/* <footer className="home-works-footer">
+			<footer className="home-works-footer">
 				<a href="/works/" className="home-works-footer__link">
 					View All<span></span>
 				</a>
-			</footer> */}
+			</footer>
 		</section>
 	);
 }
