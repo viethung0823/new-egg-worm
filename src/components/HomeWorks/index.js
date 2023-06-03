@@ -54,9 +54,9 @@ function HomeWorks() {
 		<section className="home-works">
 			<header className="home-works-header">
 				<h2 className="home-works-title">WORKS</h2>{" "}
-				<a href="/works/" className="home-works-all-link arrow-button active">
+				{/* <a href="/works/" className="home-works-all-link arrow-button active">
 					<span className="text">View All</span> <span className="arrow"></span> <span className="line"></span>
-				</a>
+				</a> */}
 			</header>
 			<div className="home-works-list">
 				{items.map((item) => (

@@ -21,19 +21,19 @@ function OurBusiness() {
 		{
 			title: t("OB.boxTitle1"),
 			imgLink: "https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/ourBrands.png",
-			description: "Learn more",
+			description: "View all",
 			url: "/brands",
 		},
 		{
 			title: t("OB.boxTitle2"),
-			imgLink: "https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/media.png",
-			description: "Learn more",
+			imgLink: "https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/content.png",
+			description: "View all",
 			url: "/media",
 		},
 		{
 			title: t("OB.boxTitle3"),
-			imgLink: "https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/content.png",
-			description: "Learn more",
+			imgLink: "https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/media.png",
+			description: "View all",
 			url: "/content",
 		},
 	];
@@ -66,6 +66,13 @@ function OurBusiness() {
 			</header>
 			<section className="our-creative">
 				<h3 className="our-services__title">{t("OS.title")}</h3>
+				<div className="rewards">
+					<div className="rewards__left">
+						<div className="rewards__left-inner">
+							<p>{t("OS.box4")}</p>
+						</div>
+					</div>
+				</div>
 				<ul className="our-business__buttons">
 					{ourServiceList.map((item, index) => (
 						<li className={`our-business__button ${activeOSIndex.includes(index) ? "active" : ""}`} key={index} onClick={() => handleItemClick(index)}>
@@ -81,13 +88,6 @@ function OurBusiness() {
 						</li>
 					))}
 				</ul>
-				<div className="rewards">
-					<div className="rewards__left">
-						<div className="rewards__left-inner">
-							<p>{t("OS.box4")}</p>
-						</div>
-					</div>
-				</div>
 			</section>
 			<section className="our-services">
 				<h3 className="our-services__title">Other business</h3>
@@ -100,18 +100,12 @@ function OurBusiness() {
 								<div class="hover">
 									<div class="hover-inner">
 										<span class="text">{item.description}</span>
-										<a href={item.url} target="_blank" title="THE CREATIVE ACADEMY">
-											Website<span></span>
-										</a>
 									</div>
 								</div>
 							</div>
 						</li>
 					))}
 				</ul>
-				<a href="/" target="_blank" title="事業計画はこちら" className="business-plan-link" rel="noreferrer">
-					View all<span></span>
-				</a>
 			</section>
 		</section>
 	);

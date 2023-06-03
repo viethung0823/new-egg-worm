@@ -2068,7 +2068,6 @@ html.is-ipad .showreel-playbutton .circle:before {
   font-style: normal;
   width: 40%;
   float: left;
-  margin-top: -11px
 }
 
 @media (max-width: 1440px) {
@@ -2853,7 +2852,6 @@ html.is-ipad .home-works-item__inner {
   padding-bottom: 80px;
   color: #000;
   text-align: left;
-  margin-top: -11px
 }
 
 @media (min-width: 769px) {
@@ -2997,7 +2995,8 @@ html.is-ipad .home-works-item__inner {
 }
 
 .our-business__buttons {
-  margin: 0 -3px 6px
+  margin: 0 -3px 6px;
+  margin-bottom: 80px;
 }
 
 .our-business__buttons:after {
@@ -3243,7 +3242,7 @@ html.is-ipad .home-works-item__inner {
 
 .rewards {
   font-size: 16px;
-  margin-bottom: 80px
+  margin-bottom: 16px
 }
 
 @media (max-width: 768px) {
@@ -3435,7 +3434,7 @@ html.is-ipad .home-works-item__inner {
 }
 
 .our-services {
-  padding-bottom: 130px
+  /* padding-bottom: 130px */
 }
 
 @media (max-width: 768px) {
@@ -3745,7 +3744,7 @@ html.is-ipad .home-works-item__inner {
 }
 
 .our-services-item .hover {
-  background-color: #000;
+  background-color: #333;
   position: relative;
   width: 100%;
   height: 100%;
@@ -3773,6 +3772,32 @@ html.is-ipad .home-works-item__inner {
   font-size: 14px;
   line-height: 24px;
   margin: -5px 0 22px;
+}
+
+.our-services-item .hover .text:after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 10px;
+  background: url("https://goinc.co.jp/assets/images/home/blank-white-icon.svg") top left no-repeat;
+  background-size: contain
+}
+
+.our-services-item .hover .text {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: unset;
+}
+
+.our-services-item__inner .hover .hover-inner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media (max-width: 768px) {
