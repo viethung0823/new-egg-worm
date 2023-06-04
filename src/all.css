@@ -4622,7 +4622,8 @@ html.ie .home-news-list .news-item__text::selection {
 .home-other-item img {
   width: 100%;
   height: auto;
-  display: block
+  display: block;
+  filter: grayscale(1);
 }
 
 .home-other-item__title {
