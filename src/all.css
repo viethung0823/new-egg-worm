@@ -1151,8 +1151,6 @@ html.is-ipad .footer-inner {
 @media (max-width: 768px) {
   .footer-twitter-link {
     font-size: 2.66667vw;
-    margin-right: 6.93333vw;
-    padding-left: 5.06667vw
   }
 }
 
@@ -1256,7 +1254,7 @@ html.is-ipad .footer-inner {
 
 @media (max-width: 768px) {
   .footer__inner2 {
-    padding: 24px 0;
+    padding: 24px 24px 24px 0;
   }
 }
 
@@ -2060,7 +2058,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 @media (max-width: 768px) {
   .who-we-are {
-    padding: 24vw 4.66667vw 24vw 4.66667vw
+    padding: 8vw 4.66667vw 8vw 4.66667vw
   }
 }
 
@@ -2139,7 +2137,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 @media (max-width: 768px) {
   .home-works-header {
-    padding: 0vw 4.66667vw 13.33333vw 4.66667vw
+    padding: 0vw 4.66667vw 8vw 4.66667vw
   }
 }
 
@@ -2720,18 +2718,17 @@ html.is-ipad .home-works-item__inner {
 
 .home-works-footer {
   text-align: center;
-  padding: 120px 0 0;
 }
 
 @media (max-width: 1440px) {
   .home-works-footer {
-    padding: 8.33333vw 0vw 13.88889vw 0vw
+    padding: 8.33333vw 0vw 8.33333vw 0vw
   }
 }
 
 @media (max-width: 768px) {
   .home-works-footer {
-    padding: 13.33333vw 0vw 24vw 0vw
+    padding: unset
   }
 }
 
@@ -2763,7 +2760,7 @@ html.is-ipad .home-works-item__inner {
 
 @media (min-width: 769px) {
   .home-works-footer__link:hover {
-    background-color: #999
+    /* background-color: #999 */
   }
 
   .home-works-footer__link:hover span:after {
@@ -3065,9 +3062,9 @@ html.is-ipad .home-works-item__inner {
   .our-business__button {
     float: none;
     width: 100%;
-    height: 45vw;
+    height: 52vw;
     padding: 0;
-    margin-bottom: 1.33333vw
+    margin-bottom: 4.33333vw
   }
 
   .our-business__button:last-of-type {
@@ -3445,7 +3442,7 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 768px) {
   .our-services {
-    padding: 24vw 0;
+    padding: 8vw 0;
   }
 }
 
@@ -3615,16 +3612,16 @@ html.is-ipad .home-works-item__inner {
 }
 
 .our-services-item__inner {
-  background-color: #fff;
   position: relative;
   height: 100%;
-  border: 1px solid #dddddd
+  border: 1px solid #dddddd;
+  background-color: black;
 }
 
 @media (max-width: 768px) {
   .our-services-item__inner {
     height: 42.93333vw;
-    border: unset
+    border: unset;
   }
 }
 
@@ -4022,7 +4019,7 @@ html.is-ipad .home-works-item__inner {
 @media (max-width: 768px) {
   .our-client__content {
     width: 100%;
-    padding: 24vw 0vw 24vw 0vw
+    padding: 8vw 0 8vw 0;
   }
 }
 
@@ -4126,7 +4123,7 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 768px) {
   .home-news {
-    padding: 24vw 0vw 24vw 4.66667vw
+    padding: 8vw 0vw 8vw 4.66667vw
   }
 }
 
@@ -4314,6 +4311,15 @@ html.is-ipad .home-works-item__inner {
 .home-news-content {
   float: left;
   width: 85%
+}
+
+.home-news-content {
+  background-image: url(https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/comingSoon.jpg);
+  height: 135.5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -4554,7 +4560,7 @@ html.ie .home-news-list .news-item__text::selection {
 .home-other-item__image:before {
   content: "";
   display: block;
-  padding-bottom: 72.2222222222222%;
+  padding-bottom: 70%;
   width: 100%
 }
 
@@ -4628,6 +4634,8 @@ html.ie .home-news-list .news-item__text::selection {
 
 .home-other-item__title {
   background-color: #fff;
+  -webkit-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
   display: inline-block;
   margin: 0 auto;
   color: #000;
@@ -4635,14 +4643,12 @@ html.ie .home-news-list .news-item__text::selection {
   font-weight: 700;
   font-style: normal;
   line-height: 1;
-  font-size: 18px;
-  padding: 22px 70px 22px 32px;
+  font-size: 12px;
+  padding: 18px 60px 18px 24px;
   border-radius: 30px;
   position: absolute;
   bottom: 40px;
   left: 40px;
-  -webkit-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
-  -o-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1)
 }
 
@@ -4712,8 +4718,24 @@ html.ie .home-news-list .news-item__text::selection {
 
 @media (max-width: 768px) {
   .home-gear {
-    padding: 12vw 4.66667vw 0vw 4.66667vw
+    padding: 8vw 4.66667vw 8vw 4.66667vw
   }
+}
+
+.home-gear__image.active {
+  background-image: url(https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/comingSoon.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.home-gear__image.active img {
+  opacity: 0 !important;
+}
+
+.home-gear__image img {
+  transition: 0.3s ease !important;
 }
 
 .home-gear__image {
@@ -4750,6 +4772,10 @@ html.ie .home-news-list .news-item__text::selection {
   transition: opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
   transition: opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1), -webkit-transform 1s cubic-bezier(0.16, 1, 0.3, 1);
   opacity: 0
+}
+
+.home-gear__image img.sp-only {
+  opacity: 1
 }
 
 .home-gear__image img.loaded {
@@ -4869,7 +4895,7 @@ html.ie .home-news-list .news-item__text::selection {
 
 @media (max-width: 768px) {
   .home-info {
-    padding: 18.66667vw 4.66667vw 20vw 4.66667vw
+    padding: 0 4.66667vw 8vw 4.66667vw
   }
 }
 

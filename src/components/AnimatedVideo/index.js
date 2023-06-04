@@ -37,7 +37,7 @@ function AnimatedVideo() {
 
 	return (
 		<div className="relative-pos">
-			<ReactPlayer ref={playerRef} playing={playing} onProgress={handleEnded} className="VideoPlayer backBg" muted url="https://player.vimeo.com/video/830524731"></ReactPlayer>
+			<ReactPlayer ref={playerRef} playing={playing} onProgress={handleEnded} className="VideoPlayer backBg" muted url="https://player.vimeo.com/video/830524731" playsinline></ReactPlayer>
 			<div className="switch-wrapper">
 				<div className="switch">
 					<input id="language-toggle" className="check-toggle check-toggle-round-flat" type="checkbox" defaultChecked={language === "jp"} onClick={handleLanguageChange}></input>
