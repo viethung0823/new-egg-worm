@@ -43,6 +43,13 @@ relative-pos {
   filter: drop-shadow(0 0 3px white);
 }
 
+@media (max-width: 768px) {
+  .switch-wrapper {
+    right: unset;
+    left: 46px;
+  }
+}
+
 .switch {
   position: relative;
   display: inline-block;
