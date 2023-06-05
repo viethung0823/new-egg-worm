@@ -6,14 +6,13 @@ import $ from "jquery";
 
 function App() {
 	$(document).ready(function () {
-		console.log("loaded");
-		$("#siteWrapper").appendTo(".app");
+		$("#page").append($(".app"));
 	});
 
 	return (
-		<>
+		<div className="app">
 			<Media></Media>
-		</>
+		</div>
 	);
 }
 
