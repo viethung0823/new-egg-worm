@@ -1,6 +1,6 @@
 import "./App.css";
 import "./all.css";
-import Brands from "./components/Brands/index.js";
+import Media from "./components/Media/index.js";
 
 import $ from "jquery";
 
@@ -12,7 +12,7 @@ function App() {
 
 	return (
 		<>
-			<Brands></Brands>
+			<Media></Media>
 		</>
 	);
 }
