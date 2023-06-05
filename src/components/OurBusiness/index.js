@@ -20,6 +20,10 @@ function OurBusiness() {
 
 	const handleNavigate = (index) => {
 		switch (index) {
+			case 0:
+				window.location.href = "https://www.eggworm.jp/brands";
+				break;
+
 			case 2:
 				window.location.href = "https://www.eggworm.jp/en/eggwormcapturetokyo";
 				break;
