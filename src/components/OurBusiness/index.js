@@ -18,6 +18,17 @@ function OurBusiness() {
 		}
 	};
 
+	const handleNavigate = (index) => {
+		switch (index) {
+			case 2:
+				window.location.href = "https://www.eggworm.jp/en/eggwormcapturetokyo";
+				break;
+
+			default:
+				break;
+		}
+	};
+
 	const otherBusinessList = [
 		{
 			title: t("OB.boxTitle1"),
@@ -94,7 +105,7 @@ function OurBusiness() {
 				<h3 className="our-services__title">Other business</h3>
 				<ul className="our-services-list">
 					{otherBusinessList.map((item, index) => (
-						<li className={`our-services-item ${hoveredIndex === index ? "active" : ""}`} onMouseEnter={() => (!isTouchDevice ? setHoveredIndex(index) : undefined)} onMouseLeave={() => (!isTouchDevice ? setHoveredIndex(null) : undefined)}>
+						<li className={`our-services-item ${hoveredIndex === index ? "active" : ""}`} onMouseEnter={() => (!isTouchDevice ? setHoveredIndex(index) : undefined)} onMouseLeave={() => (!isTouchDevice ? setHoveredIndex(null) : undefined)} onClick={() => handleNavigate(index)}>
 							<div class="our-services-item__title">{item.title}</div>
 							<div class="our-services-item__inner">
 								<img src={item.imgLink} alt="logo"></img>

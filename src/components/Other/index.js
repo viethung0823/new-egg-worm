@@ -16,7 +16,7 @@ function Other() {
 	return (
 		<section className="home-other">
 			<div className="home-other-item">
-				<a href="/members/" className="">
+				<a href="/founders" className="">
 					<div className="home-other-item__image">
 						<img data-src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/founders.png" lazy="loaded" className="loaded"></img>
 					</div>
