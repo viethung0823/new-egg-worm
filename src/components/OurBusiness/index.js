@@ -24,6 +24,10 @@ function OurBusiness() {
 				window.location.href = "https://www.eggworm.jp/brands";
 				break;
 
+			case 1:
+				window.location.href = "https://www.eggworm.jp/media";
+				break;
+
 			case 2:
 				window.location.href = "https://www.eggworm.jp/en/eggwormcapturetokyo";
 				break;
