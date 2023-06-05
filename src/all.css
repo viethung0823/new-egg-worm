@@ -3502,6 +3502,11 @@ html.is-ipad .home-works-item__inner {
     margin: 0 -7px 40px;
     padding-top: 10px
   }
+
+  .our-services-list.brands {
+    margin: unset;
+    padding: 40px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -3522,6 +3527,10 @@ html.is-ipad .home-works-item__inner {
     min-height: 280px;
     padding: 0 7px;
     margin-bottom: 40px
+  }
+
+  .our-services-item.brands {
+    margin-bottom: unset
   }
 }
 
@@ -3616,6 +3625,10 @@ html.is-ipad .home-works-item__inner {
   height: 100%;
   border: 1px solid #dddddd;
   background-color: black;
+}
+
+.our-services-item__inner.brands {
+  border: unset;
 }
 
 @media (max-width: 768px) {
@@ -3776,6 +3789,20 @@ html.is-ipad .home-works-item__inner {
   font-size: 14px;
   line-height: 24px;
   margin: -5px 0 22px;
+}
+
+.our-services-item.brands .hover .text {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.our-services-item.brands .hover .text:after {
+  content: unset;
+}
+
+.our-services-item.brands .hover a {
+  margin: unset;
 }
 
 .our-services-item .hover .text:after {
@@ -10732,6 +10759,12 @@ input[type="checkbox"]:checked+.security-check-label span:before {
   animation-duration: 1s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+}
+
+@media (max-width: 768px) {
+  .hamburger-button {
+    right: 46px !important;
+  }
 }
 
 .hamburger-button span {
