@@ -2521,7 +2521,7 @@ html.is-ipad .home-works-item__inner {
     border-bottom: none
   }
 
-  .home-works-info:not(:last-child) {
+  .home-works-item:not(:last-child) .home-works-info {
     padding-bottom: 11.46667vw;
   }
 }
