@@ -1,6 +1,7 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/alt-text */
 import React, {useRef, useEffect, useState} from "react";
+import {useTranslation} from "react-i18next";
 
 const items = [
 	{
@@ -27,6 +28,7 @@ const items = [
 ];
 
 function HomeWorks() {
+	const {t, i18n} = useTranslation();
 	const [activeIndex, setActiveIndex] = useState(null);
 	const itemRefs = useRef([]);
 	const handleIntersection = (entries, observer) => {
@@ -78,7 +80,7 @@ function HomeWorks() {
 				))}
 			</div>
 			<footer className="home-works-footer">
-				<a href="/works/" className="home-works-footer__link">
+				<a href={i18n.language === "jp" ? "https://www.eggworm.jp/jp/our-work" :"https://www.eggworm.jp/en/our-work"} className="home-works-footer__link">
 					View All<span></span>
 				</a>
 			</footer>

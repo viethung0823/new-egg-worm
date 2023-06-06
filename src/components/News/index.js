@@ -20,7 +20,7 @@ function News() {
 		<section className="home-news">
 			<header className="home-news-header">
 				<h2 className="home-news-title">NEWS</h2>{" "}
-				<a href="/news/" className="home-news-link arrow-button active">
+				<a href="https://www.eggworm.jp/our-history" className="home-news-link arrow-button active">
 					<span className="text">View All</span> <span className="arrow"></span> <span className="line"></span>
 				</a>
 			</header>
