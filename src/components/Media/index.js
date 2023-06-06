@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react";
-import "./index.css";
 import $ from "jquery";
 
 function Brands() {
