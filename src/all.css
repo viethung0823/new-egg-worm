@@ -2515,10 +2515,14 @@ html.is-ipad .home-works-item__inner {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
-    padding: 8vw 4.66667vw 11.46667vw 4.66667vw;
+    padding: 8vw 4.66667vw 0 4.66667vw;
     border-bottom: 1px solid #000;
     opacity: 1;
     border-bottom: none
+  }
+
+  .home-works-info:not(:last-child) {
+    padding-bottom: 11.46667vw;
   }
 }
 
@@ -2718,11 +2722,13 @@ html.is-ipad .home-works-item__inner {
 
 .home-works-footer {
   text-align: center;
+  background: #222;
+  padding: 16px 0vw 16px 0vw
+
 }
 
 @media (max-width: 1440px) {
   .home-works-footer {
-    padding: 8.33333vw 0vw 8.33333vw 0vw
   }
 }
 
@@ -2733,10 +2739,9 @@ html.is-ipad .home-works-item__inner {
 }
 
 .home-works-footer__link {
-  background-color: #fff;
   display: inline-block;
   margin: 0 auto;
-  color: #000;
+  color: #fff;
   font-family: neue-haas-grotesk-text, 'Noto Sans JP', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -2779,7 +2784,8 @@ html.is-ipad .home-works-item__inner {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  overflow: hidden
+  overflow: hidden;
+  filter: invert(1);
 }
 
 @media (max-width: 768px) {
@@ -4151,7 +4157,7 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 768px) {
   .home-news {
-    padding: 8vw 0vw 8vw 4.66667vw
+    padding: 8vw 4.66667vw;
   }
 }
 
