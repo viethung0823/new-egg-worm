@@ -78,11 +78,6 @@ function AnimatedVideo() {
 								</a>
 							</li>
 						</ul>
-						<div class="footer__sns">
-							<a href="https://twitter.com" target="_blank" title="TWITTER" class="footer-twitter-link">
-								TWITTER
-							</a>
-						</div>
 						<div class="footer__copyright">
 							© <span class="footer__year">2023</span> Eggworm inc. All Rights Reserved.
 						</div>
