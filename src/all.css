@@ -4151,7 +4151,15 @@ html.is-ipad .home-works-item__inner {
 
 @media (max-width: 1440px) {
   .home-news {
-    padding: 13.88889vw 0vw 13.88889vw 10vw
+    padding: 13.88889vw 0vw 13.88889vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .home-news-content  {
+    width: 70% !important;
+    float: unset;
   }
 }
 
