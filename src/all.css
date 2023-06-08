@@ -2516,7 +2516,6 @@ html.is-ipad .home-works-item__inner {
     -ms-transform: translateX(0);
     transform: translateX(0);
     padding: 8vw 4.66667vw 0 4.66667vw;
-    border-bottom: 1px solid #000;
     opacity: 1;
     border-bottom: none
   }
