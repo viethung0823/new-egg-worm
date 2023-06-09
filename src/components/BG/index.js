@@ -3,7 +3,7 @@ import React, {useEffect} from "react";
 import $ from "jquery";
 import {useTranslation} from "react-i18next";
 
-function Reel() {
+function BG() {
 	useEffect(() => {
 		const imgs = document.querySelectorAll(".gl-state-copy");
 		const imgWidth = imgs[0].offsetWidth;
@@ -185,4 +185,4 @@ function Reel() {
 	);
 }
 
-export default Reel;
+export default BG;
