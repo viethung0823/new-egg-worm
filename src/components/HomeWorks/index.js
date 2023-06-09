@@ -53,7 +53,7 @@ function HomeWorks() {
 	}, []);
 
 	return (
-		<section className="home-works">
+		<section className="home-works" id="our-work">
 			<header className="home-works-header">
 				<h2 className="home-works-title">WORKS</h2>{" "}
 				{/* <a href="/works/" className="home-works-all-link arrow-button active">

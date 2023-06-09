@@ -2361,7 +2361,7 @@ html.is-ipad .showreel-playbutton .circle:before {
 
 .home-works-item {
   overflow: hidden;
-  height: 65vh;
+  height: 67vh;
   position: relative;
   display: block
 }
@@ -9503,6 +9503,7 @@ html.edge .menu-button span {
 }
 
 .menu .footer-menu__item {
+  cursor: pointer;
   opacity: 0;
   -webkit-transform: translateX(0px);
   -ms-transform: translateX(0px);

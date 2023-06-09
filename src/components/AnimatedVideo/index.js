@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useRef, useState} from "react";
 import ReactPlayer from "react-player";
 import "./index.css";
@@ -35,6 +36,13 @@ function AnimatedVideo() {
 		i18n.changeLanguage(newLanguage);
 	};
 
+	const scrollToID = (id) => {
+		handleClick()
+		$('html, body').animate({
+      scrollTop: $(id).offset().top
+  	}, 1000);
+	};
+
 	return (
 		<div className="relative-pos">
 			<ReactPlayer ref={playerRef} playing={playing} onProgress={handleEnded} className="VideoPlayer backBg" muted url="https://player.vimeo.com/video/830524731" playsinline></ReactPlayer>
@@ -63,17 +71,17 @@ function AnimatedVideo() {
 								</a>
 							</li>
 							<li class="footer-menu__item ">
-								<a href="/" class="">
+								<a class="" onClick={()=> scrollToID('#our-creative')}>
 									OUR SERVICES
 								</a>
 							</li>
-							<li class="footer-menu__item ">
-								<a href="/" class="">
+							<li class="footer-menu__item " >
+								<a class="" onClick={()=> scrollToID('#our-work')}>
 									WORKS
 								</a>
 							</li>
 							<li class="footer-menu__item ">
-								<a href="/" class="">
+								<a href="https://www.eggworm.jp/contact" class="">
 									CONTACT
 								</a>
 							</li>
