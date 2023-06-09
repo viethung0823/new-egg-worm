@@ -10856,3 +10856,7 @@ input[type="checkbox"]:checked+.security-check-label span:before {
   -ms-transform: translateY(-4px);
   transform: translateY(-4px);
 }
+
+.position-fixed {
+  position: fixed;
+}

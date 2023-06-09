@@ -141,7 +141,7 @@
             <a href="/" class="">WORKS</a>
           </li>
           <li class="footer-menu__item ">
-            <a href="/" class="">NEWS</a>
+            <a href="/" class="">CONTACT</a>
           </li>
         </ul>
         <div class="footer__copyright">© <span class="footer__year">2023</span> Eggworm inc. All Rights Reserved.</div>

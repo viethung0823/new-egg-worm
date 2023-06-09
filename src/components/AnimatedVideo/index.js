@@ -12,10 +12,10 @@ function AnimatedVideo() {
 	const [isActiveMenu, setIsActiveMenu] = useState(false);
 
 	const handleClick = () => {
+		$('body').toggleClass('position-fixed');
 		const menuOverlay = $(".menu-overlay");
 		menuOverlay.toggleClass("active");
 		menuOverlay.toggleClass("motion");
-
 		const menu = $(".menu");
 		menu.toggleClass("active");
 		menu.toggleClass("motion");
@@ -58,7 +58,7 @@ function AnimatedVideo() {
 						<div class="menu-logo"></div>
 						<ul class="footer-menu">
 							<li class="footer-menu__item">
-								<a href="/" class="">
+								<a href="https://www.eggworm.jp/our-history" class="">
 									WHO WE ARE
 								</a>
 							</li>
@@ -74,7 +74,7 @@ function AnimatedVideo() {
 							</li>
 							<li class="footer-menu__item ">
 								<a href="/" class="">
-									NEWS
+									CONTACT
 								</a>
 							</li>
 						</ul>
