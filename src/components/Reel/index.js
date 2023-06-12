@@ -153,12 +153,12 @@ function Reel() {
 			<section id="gl-statement">
 				<div className="gl-state-copyset">
 					<div className="gl-state-copy">
-						<img src="https://raw.githubusercontent.com/kunsansang/eggworm/main/src/components/BG/eggwormLine.svg" alt="logo"></img>
+						<img src="https://raw.githubusercontent.com/kunsansang/eggworm/main/src/components/Reel/eggwormLine.svg" alt="logo"></img>
 					</div>
 				</div>
 				<div className="gl-state-copyset">
 					<div className="gl-state-copy">
-						<img src="https://raw.githubusercontent.com/kunsansang/eggworm/main/src/components/BG/eggworm.svg" alt="logo"></img>
+						<img src="https://raw.githubusercontent.com/kunsansang/eggworm/main/src/components/Reel/eggworm.svg" alt="logo"></img>
 					</div>
 				</div>
 				<div className="gl-state-white"></div>
