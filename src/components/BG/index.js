@@ -142,6 +142,7 @@ function BG() {
 		);
 		const $element1 = $(".container-fluid.my-container");
 		const $element2 = $("#gl-statement");
+		onScroll();
 		$element2.after($element1);
 		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
