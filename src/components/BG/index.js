@@ -162,24 +162,41 @@ function BG() {
 					</div>
 				</div>
 				<div className="gl-state-white"></div>
-				{/* <div className="gl-statement-txt">
+				<div className="gl-statement-txt">
+					<h2 className="title1">OUR HISTORY</h2>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>{t("reel.title")}</span>
+						<span>Founded in 2010, we embarked on a mission to redefine the events industry in Japan. Our goal was to create immersive experiences where every detail mattered, leaving a lasting impression on people's memories. </span>
 					</p>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>{t("reel.subtitle1")}</span>
+						<span>Driven by our passion, we pushed boundaries and overcame scepticism with the unwavering support of our friends and partners. They believed in our vision, transforming them into devoted fans and fostering deep connections. The unique and captivating aspect of our work lies in the carefully designed and orchestrated chaos.</span>
 					</p>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>{t("reel.subtitle2")}</span>
+						<span>From concepting mind-bending ideas to executing flawless experiences, we found exhilaration in every step of the journey. From concepting mind-bending ideas to negotiating contracts with talent and venues and programming to building out awe-inspiring spaces we love it all.</span>
 					</p>
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
-						<span>{t("reel.subtitle3")}</span>
+						<span>Along our path, we formed partnerships with influential events companies and as the stakes grew higher, we embraced the adventure whilst fearlessly exploring diverse concepts and spaces across Japan. Recognizing the significance of taking risks and the trust placed in us, this shared understanding forms the cornerstone of our longevity in the industry. We thrive in the face of challenges, drawing strength from the trust placed in us by companies and brands.</span>
 					</p>
-				</div> */}
+					<p className="gl-state-intxt">
+						<span className="gl-state-line"></span>
+						<span>Amid the digital revolution, we harnessed social media and digital marketing, realising that traditional methods like flyers and posters were no longer effective. Our expertise in the digital realm allowed us to connect with a wider audience, revolutionising our approach to sponsorship and forming impactful partnerships. </span>
+					</p>
+					<p className="gl-state-intxt">
+						<span className="gl-state-line"></span>
+						<span>Resilience and flexibility became our hallmarks as we created extraordinary experiences in event spaces that became our dynamic canvases. Talkability was key as we designed moments that sparked conversations and kept the excitement alive long after the events concluded.</span>
+					</p>
+					<p className="gl-state-intxt">
+						<span className="gl-state-line"></span>
+						<span>With our captivating energy, visuals and work ethic, brands and companies sought us out, wanting to know more. We eagerly embraced the challenge, expanding our expertise to encompass a diverse range of problem-solving solutions for our partners. This journey shaped us into masters of our craft, excelling in strategy, creation, and amplification. </span>
+					</p>
+					<p className="gl-state-intxt">
+						<span className="gl-state-line"></span>
+						<span>Trust is the foundation of our relationships, as many partners have stood by our side for over a decade. At EGGWORM, our passion lies in crafting extraordinary experiences that captivate hearts, stimulate minds, and ignite imaginations.</span>
+					</p>
+				</div>
 			</section>
 		</>
 	);

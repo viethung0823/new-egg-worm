@@ -61,7 +61,6 @@
 
 @media (min-width: 1440px) {
   #gl-statement {
-    padding: 245px 10% 235px 36%;
   }
 }
 
@@ -186,4 +185,15 @@ span.gl-state-line {
   to {
     opacity: 1
   }
+}
+
+h2.title1 {
+  font-size: calc(3.6 * 1rem);
+  font-family: "pragmatica-extended";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .01em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
 }
