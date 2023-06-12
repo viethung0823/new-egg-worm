@@ -113,7 +113,7 @@ function BG() {
 			if (scrollAmount !== 0) {
 				direction = -scrollAmount / Math.abs(scrollAmount);
 			}
-			if (!hasRun && isInView(whiteBg)) {
+			if (!hasRun) {
 				hasRun = true;
 				fadeInMoving();
 				texts?.forEach((text) => {
