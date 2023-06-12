@@ -153,12 +153,12 @@ function BG() {
 			<section id="gl-statement">
 				<div className="gl-state-copyset">
 					<div className="gl-state-copy">
-						<img src="https://raw.githubusercontent.com/kunsansang/eggworm/main/reel/eggwormLine.svg" alt="logo"></img>
+						<img src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/components/BG/ourHistory.svg" alt="logo"></img>
 					</div>
 				</div>
 				<div className="gl-state-copyset">
 					<div className="gl-state-copy">
-						<img src="https://raw.githubusercontent.com/kunsansang/eggworm/main/reel/eggworm.svg" alt="logo"></img>
+						<img src="https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/components/BG/ourHistoryFill.svg" alt="logo"></img>
 					</div>
 				</div>
 				<div className="gl-state-white"></div>

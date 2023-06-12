@@ -15,6 +15,9 @@ function WhoWeAre() {
 				<br></br>
 				<br></br>
 				{t("HWA.subtitle3")}
+				<br></br>
+				<br></br>
+				<a href="https://www.eggworm.jp/our-history" className="home-works-link arrow-button active"><span class="text">Our History</span> <span class="arrow"></span> <span class="line"></span></a>
 			</p>
 		</section>
 	);

@@ -10861,3 +10861,15 @@ input[type="checkbox"]:checked+.security-check-label span:before {
 .position-fixed {
   position: fixed;
 }
+
+.who-we-are .home-works-link {
+  color: #000;
+}
+
+.who-we-are .home-works-link .arrow:before {
+  background: url("https://goinc.co.jp/assets/images/home/works-arrow-black.svg") top left no-repeat;
+}
+
+.who-we-are .home-works-link .line {
+  background: #000;
+}
