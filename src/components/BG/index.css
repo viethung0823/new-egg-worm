@@ -23,8 +23,8 @@
 
 @media (min-width: 1440px) {
   #gl-statement p {
-    font-size: 25px;
-    line-height: 45px
+    font-size: calc(1.1 * 1rem);
+    line-height: 1.6;
   }
 }
 
