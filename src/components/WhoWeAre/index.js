@@ -5,7 +5,7 @@ function WhoWeAre() {
 	const {t} = useTranslation();
 
 	return (
-		<section className="who-we-are">
+		<section className="who-we-are" id="who-we-are">
 			<h2>{t("HWA.title")}</h2>
 			<p>
 				{t("HWA.subtitle1")}

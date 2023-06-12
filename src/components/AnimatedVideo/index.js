@@ -66,7 +66,7 @@ function AnimatedVideo() {
 						<div class="menu-logo"></div>
 						<ul class="footer-menu">
 							<li class="footer-menu__item">
-								<a href="https://www.eggworm.jp/our-history" class="">
+								<a class="" onClick={()=> scrollToID('#who-we-are')}>
 									WHO WE ARE
 								</a>
 							</li>
