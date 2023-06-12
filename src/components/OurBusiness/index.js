@@ -29,7 +29,7 @@ function OurBusiness() {
 				break;
 
 			case 2:
-				window.location.href = "https://www.eggworm.jp/en/eggwormcapturetokyo";
+				window.location.href = "https://www.eggworm.jp/videoproduction";
 				break;
 
 			default:
