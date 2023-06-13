@@ -71,7 +71,7 @@ function AnimatedVideo() {
 								</a>
 							</li>
 							<li class="footer-menu__item ">
-								<a class="" onClick={()=> scrollToID('#our-creative')}>
+								<a class="" onClick={()=> scrollToID('#our-services')}>
 									OUR SERVICES
 								</a>
 							</li>

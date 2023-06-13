@@ -84,7 +84,7 @@ function OurBusiness() {
 					<p className="our-business__text">{t("OB.subtitle2")}</p>
 				</div>
 			</header>
-			<section className="our-creative" id="our-creative">
+			<section className="our-creative" id="our-services">
 				<h3 className="our-services__title">{t("OS.title")}</h3>
 				<div className="rewards">
 					<div className="rewards__left">
