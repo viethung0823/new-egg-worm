@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
       const element = document.getElementById(window.location.hash.slice(1));
       if (element) {
-        const top = element.getBoundingClientRect().top + window.pageYOffset - 100;
+        const top = element.getBoundingClientRect().top + window.pageYOffset - 23;
         window.scrollTo({
           top: top,
           behavior: 'smooth'
