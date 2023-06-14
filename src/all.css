@@ -4193,8 +4193,7 @@ html.is-ipad .home-works-item__inner {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 700;
   font-style: normal;
-  line-height: 2;
-  margin: -22px 0 33px
+  line-height: 1;
 }
 
 @media (max-width: 768px) {
