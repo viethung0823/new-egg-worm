@@ -5633,12 +5633,11 @@ html.ie .home-news-list .news-item__text::selection {
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin: -9px 0 14px
 }
 
 @media (max-width: 768px) {
   .news-item__date {
-    font-size: 24px;
+    font-size: 4.2vw;
   }
 }
 
@@ -5648,7 +5647,8 @@ html.ie .home-news-list .news-item__text::selection {
   text-decoration: underline;
   line-height: 26px;
   font-weight: bold;
-  margin: -6px 0 14px;
+  margin-bottom: 12px;
+
   display: block;
   -webkit-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
   -o-transition: color 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -5667,8 +5667,9 @@ html.ie .home-news-list .news-item__text::selection {
 
 @media (max-width: 768px) {
   .news-item__link {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 3.2vw;
+    line-height: 1.5;
+    margin-bottom: 1.5vw;
   }
 
   .news-item__link:after {
