@@ -5627,7 +5627,8 @@ html.ie .home-news-list .news-item__text::selection {
 
 .news-item__date {
   font-size: 25px;
-  line-height: 1.5;
+  line-height: 1;
+  margin-bottom: 8px;
   color: #aaaaaa;
   font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 700;
