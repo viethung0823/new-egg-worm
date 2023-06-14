@@ -2723,12 +2723,10 @@ html.is-ipad .home-works-item__inner {
   text-align: center;
   background: #222;
   padding: 16px 0vw 16px 0vw
-
 }
 
 @media (max-width: 1440px) {
-  .home-works-footer {
-  }
+  .home-works-footer {}
 }
 
 @media (max-width: 768px) {
@@ -4138,7 +4136,7 @@ html.is-ipad .home-works-item__inner {
 
 .home-news {
   background-color: #f6f6f6;
-  padding: 80px 145px;
+  padding: 80px 144px;
   position: relative
 }
 
@@ -4156,7 +4154,7 @@ html.is-ipad .home-works-item__inner {
     justify-content: space-between;
   }
 
-  .home-news-content  {
+  .home-news-content {
     width: 70% !important;
     float: unset;
   }
@@ -4362,12 +4360,12 @@ html.is-ipad .home-works-item__inner {
 }
 
 .home-news-content {
-  background-image: url(https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/comingSoon.jpg);
-  height: 135.5px;
+  /* background-image: url(https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/comingSoon.jpg); */
+  /* height: 135.5px; */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: black;
+  /* background-color: black; */
 }
 
 @media (max-width: 768px) {
@@ -5640,8 +5638,7 @@ html.ie .home-news-list .news-item__text::selection {
 
 @media (max-width: 768px) {
   .news-item__date {
-    font-size: 4vw;
-    margin: -.93333vw 0vw 3.86667vw 0vw
+    font-size: 24px;
   }
 }
 
@@ -5670,9 +5667,8 @@ html.ie .home-news-list .news-item__text::selection {
 
 @media (max-width: 768px) {
   .news-item__link {
-    font-size: 3.2vw;
-    line-height: 5.6vw;
-    margin: -1.2vw 0vw 2.8vw 0vw
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .news-item__link:after {
@@ -10872,4 +10868,24 @@ input[type="checkbox"]:checked+.security-check-label span:before {
 
 .who-we-are .home-works-link .line {
   background: #000;
+}
+
+.news-img {
+  width: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 719/403;
+  transition: 0.5s ease;
+}
+
+.news-img:hover {
+  filter: grayscale();
+}
+
+.news-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: unset;
 }

@@ -1,9 +1,15 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/alt-text */
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import $ from "jquery";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {news} from "./data";
+// Import Swiper styles
+import "swiper/css";
 
 function News() {
+	const [swiperRef, setSwiperRef] = useState(null);
+	const [newsData, setNewsData] = useState(news);
 	useEffect(() => {
 		const $element1 = $(".home-news-content");
 		const $element2 = $(".fe-block-3284dc0550b8600a7274");
@@ -15,7 +21,28 @@ function News() {
 		$(".summary-read-more-link").addClass("news-item__link").removeClass("summary-read-more-link");
 
 		$('section[data-section-id="6472e7d959a4f10c5e5afedc"]').remove();
-	}, []);
+		setNewsData(newsData.sort((a, b) => b.date - a.date));
+	}, [newsData]);
+
+	const handleNavigate = (link) => {
+		window.location.href = link;
+	};
+
+	function formatDate(date) {
+		const year = date.getFullYear();
+		let month = date.getMonth() + 1;
+		let day = date.getDate();
+
+		if (month < 10) {
+			month = "0" + month;
+		}
+		if (day < 10) {
+			day = "0" + day;
+		}
+
+		return `${year}/${month}/${day}`;
+	}
+
 	return (
 		<section className="home-news">
 			<header className="home-news-header">
@@ -24,7 +51,37 @@ function News() {
 					<span className="text">View All</span> <span className="arrow"></span> <span className="line"></span>
 				</a> */}
 			</header>
-			<div className="home-news-content"></div>
+			<div className="home-news-content">
+				<Swiper
+					onSwiper={setSwiperRef}
+					centeredSlides={false}
+					spaceBetween={22}
+					pagination={false}
+					breakpoints={{
+						768: {
+							slidesPerView: 3,
+						},
+						0: {
+							slidesPerView: 2,
+						},
+					}}
+					scrollbar={{
+						draggable: true,
+					}}
+					navigation={false}
+					className="mySwiper"
+				>
+					{newsData.map((item) => (
+						<SwiperSlide>
+							<p className="news-item__date">{formatDate(item.date)}</p>
+							<a href={item.link} className="news-item__link news-title">
+								{item.title}
+							</a>
+							<img className="news-img" src={item.img} />
+						</SwiperSlide>
+					))}
+				</Swiper>
+			</div>
 		</section>
 	);
 }
