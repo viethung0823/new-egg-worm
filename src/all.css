@@ -5626,7 +5626,7 @@ html.ie .home-news-list .news-item__text::selection {
 }
 
 .news-item__date {
-  font-size: 25px;
+  font-size: 16px;
   line-height: 1;
   margin-bottom: 8px;
   color: #aaaaaa;
@@ -10878,10 +10878,11 @@ input[type="checkbox"]:checked+.security-check-label span:before {
   object-position: center;
   aspect-ratio: 719/403;
   transition: 0.5s ease;
+  filter: grayscale();
 }
 
 .news-img:hover {
-  filter: grayscale();
+  filter: unset;
 }
 
 .news-title {
