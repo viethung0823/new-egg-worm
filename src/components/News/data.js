@@ -15,6 +15,6 @@ export const news = [
 		title: "BTV, Tokyo Launch",
 		date: new Date("March 23, 2023"),
 		img: "https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/news/beyond.png",
-		link: "https://www.eggworm.jp/beyondthevines",
+		link: "https://www.beyondthevines.jp/en",
 	},
 ];
