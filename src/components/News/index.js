@@ -29,10 +29,10 @@ function News() {
 	};
 
 	function formatDate(date) {
-		const year = date.getFullYear();
+		const year = date.getFullYear().toString().slice(-2);;
 		let month = date.getMonth() + 1;
 		month = month >= 10 ? month : '0' + String(month)
-		return `${year}/${month}`;
+		return `${month}/${year}`;
 	}
 
 	return (
