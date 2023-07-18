@@ -66,10 +66,12 @@ function News() {
 					{newsData.map((item) => (
 						<SwiperSlide>
 							<p className="news-item__date">{formatDate(item.date)}</p>
-							<a href={item.link} className="news-item__link news-title">
-								{item.title}
+							<a href={item.link}>
+								<p  className="news-item__link news-title">
+									{item.title}
+								</p>
+								<img className="news-img" src={item.img} />
 							</a>
-							<img className="news-img" src={item.img} />
 						</SwiperSlide>
 					))}
 				</Swiper>
