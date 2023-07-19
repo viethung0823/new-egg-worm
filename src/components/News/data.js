@@ -9,7 +9,7 @@ export const news = [
 		title: "Enter Japan - Discover the opportunity",
 		date: new Date("June 23, 2023"),
 		img: "https://raw.githubusercontent.com/kunsansang/new-egg-worm/main/src/assets/news/market.png",
-		link: "https://www.linkedin.com/feed/update/urn:li:activity:7072764717844320256",
+		link: "https://www.eggworm.jp/news/enter-jp-001",
 	},
 	{
 		title: "BTV, Tokyo Launch",
