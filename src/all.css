@@ -2094,6 +2094,7 @@ html.is-ipad .showreel-playbutton .circle:before {
   font-weight: bold;
   line-height: 30px;
   margin: -7px 0;
+  white-space: pre-line;
 }
 
 @media (max-width: 768px) {
