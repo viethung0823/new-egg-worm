@@ -10891,4 +10891,5 @@ input[type="checkbox"]:checked+.security-check-label span:before {
   white-space: nowrap;
   overflow: hidden;
   text-decoration: unset;
+  text-transform: uppercase;
 }
