@@ -1,15 +1,20 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useState} from "react";
-import $ from "jquery";
 import {useTranslation} from "react-i18next";
 
 function OurBusiness() {
-	const {t} = useTranslation();
+	const {t, i18n} = useTranslation();
 	const [activeOSIndex, setActiveOSIndex] = useState([]);
 	const [hoveredIndex, setHoveredIndex] = useState(null);
 	const isTouchDevice = Boolean("ontouchstart" in window);
 
+  // Get the current language
+  const currentLanguage = i18n.language;
+
+  // Check if the current language is "jp" (Japanese)
+
+  const isJapanese = currentLanguage === 'jp';
 	const handleItemClick = (index) => {
 		if (activeOSIndex.includes(index)) {
 			setActiveOSIndex(activeOSIndex.filter((i) => i !== index));
@@ -102,7 +107,7 @@ function OurBusiness() {
 									<span>{item.title}</span>
 								</div>
 								<div className="hover">
-									<span>{item.content}</span>
+									<span className={isJapanese ? 'jp' : ''}>{item.content}</span>
 								</div>
 							</a>
 						</li>
@@ -114,12 +119,12 @@ function OurBusiness() {
 				<ul className="our-services-list">
 					{otherBusinessList.map((item, index) => (
 						<li className={`our-services-item ${hoveredIndex === index ? "active" : ""}`} onMouseEnter={() => (!isTouchDevice ? setHoveredIndex(index) : undefined)} onMouseLeave={() => (!isTouchDevice ? setHoveredIndex(null) : undefined)} onClick={() => handleNavigate(index)}>
-							<div class="our-services-item__title">{item.title}</div>
-							<div class="our-services-item__inner">
+							<div className="our-services-item__title">{item.title}</div>
+							<div className="our-services-item__inner">
 								<img src={item.imgLink} alt="logo"></img>
-								<div class="hover">
-									<div class="hover-inner">
-										<span class="text">{item.description}</span>
+								<div className="hover">
+									<div className="hover-inner">
+										<span className="text">{item.description}</span>
 									</div>
 								</div>
 							</div>

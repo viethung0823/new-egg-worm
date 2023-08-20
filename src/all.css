@@ -3170,7 +3170,14 @@ html.is-ipad .home-works-item__inner {
   opacity: 0;
   -webkit-transition: opacity 0.1s ease-out;
   -o-transition: opacity 0.1s ease-out;
-  transition: opacity 0.1s ease-out
+  transition: opacity 0.1s ease-out;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.our-business__button .hover::-webkit-scrollbar  {
+  width: 0;
+  background-color: transparent;
 }
 
 .our-business__button .hover span {
@@ -3238,6 +3245,12 @@ html.is-ipad .home-works-item__inner {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%)
+}
+
+.our-business__button.active .hover span.jp {
+  transform: translate(-50%, 0);
+  top: 0%;
+  padding: 20px 0;
 }
 
 .our-business__button.active:after {

@@ -52,3 +52,12 @@ iframe {
   -moz-user-drag: none;
   -o-user-drag: none;
 }
+
+.align-text-center {
+  display: block;
+  text-align: center;
+}
+
+p, span {
+  white-space: pre-wrap;
+}
