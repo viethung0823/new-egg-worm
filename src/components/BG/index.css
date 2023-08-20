@@ -197,3 +197,7 @@ h2.title1 {
   color: #fff;
   margin-bottom: 32px;
 }
+
+span {
+  white-space: pre-line;
+}
