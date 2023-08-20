@@ -169,18 +169,22 @@ function BG() {
 						<span className="gl-state-line"></span>
 						<span>{t("UH.text1")}</span>
 					</p>
-					<p className="gl-state-intxt">
-						<span className="gl-state-line"></span>
-						<span>{t("UH.text2")}</span>
-					</p>
+					{t("UH.text2") && (
+						<p className="gl-state-intxt">
+							<span className="gl-state-line"></span>
+							<span>{t("UH.text2")}</span>
+						</p>
+					)}
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
 						<span>{t("UH.text3")}</span>
 					</p>
-					<p className="gl-state-intxt">
-						<span className="gl-state-line"></span>
-						<span>{t("UH.text4")}</span>
-					</p>
+					{t("UH.text4") && (
+						<p className="gl-state-intxt">
+							<span className="gl-state-line"></span>
+							<span>{t("UH.text4")}</span>
+						</p>
+					)}
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
 						<span>{t("UH.text5")}</span>
