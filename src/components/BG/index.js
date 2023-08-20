@@ -1,4 +1,4 @@
-import "./index.css";
+import "./indexx.css";
 import React, {useEffect} from "react";
 import $ from "jquery";
 import {useTranslation} from "react-i18next";
