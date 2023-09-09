@@ -38,7 +38,7 @@ function News() {
 	return (
 		<section className="home-news">
 			<header className="home-news-header">
-				<h2 className="home-news-title">NEWS</h2>{" "}
+				<h2 className="home-news-title">HUB</h2>
 				<a href="https://www.eggworm.jp/news" className="home-news-link arrow-button active">
 					<span className="text">View All</span> <span className="arrow"></span> <span className="line"></span>
 				</a>
