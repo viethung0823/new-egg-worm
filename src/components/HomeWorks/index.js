@@ -27,6 +27,8 @@ function HomeWorks() {
 			observer.disconnect();
 		};
 	}, []);
+	const currentLanguage = i18n.language;
+  const isJapanese = currentLanguage === 'jp';
 
 	const items = [
 		{
@@ -41,14 +43,14 @@ function HomeWorks() {
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1596417754268-0HYZGZ8BXFKG20TNHSEK/107051076_2987167684885523_3111168653457907190_n.jpg",
 			title: "TAXI OVATION",
 			description: t("WOKR.2"),
-			url: "https://www.eggworm.jp/en/our-work/taxi-ovation",
+			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-work/taxi-ovation`,
 		},
 		{
 			id: 3,
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1596418713811-XAM7LLHGZWOES91AAL3D/28161740_10155415421745698_2751362336498237194_o_10155415421745698.jpg",
 			title: "ONITSUKA TIGER",
 			description: t("WOKR.3"),
-			url: "https://www.eggworm.jp/en/our-work/onitsuka-tiger",
+			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-work/onitsuka-tiger`,
 		},
 	];
 
