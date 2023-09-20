@@ -6,6 +6,12 @@ export const news = [
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1692101450203-KQJPN2DRUCXDGPLBVIWU/jimmycarr.png",
 	},
 	{
+		title: "Nick Stevenson, Interview",
+		date: new Date("2023-09-28T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/nickstevensoninterview",
+		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1692965068410-3HMSZ8025X2CBB2P2JBM/Screenshot+2023-07-11+at+13.56.11.png?format=500w",
+	},
+	{
 		title: "Nina Kravitz, Interview",
 		date: new Date("2023-09-30T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/hub/nina-kravitz-interview",
