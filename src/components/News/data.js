@@ -1,9 +1,15 @@
 export const news = [
 	{
-		title: "Jimmy Carr, Asia Tour Launch",
+		title: "Jimmy Carr, Asia Launch",
 		date: new Date("2023-07-31T17:00:00.000Z"),
 		link: "https://www.jimmycarr.com/",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1692101450203-KQJPN2DRUCXDGPLBVIWU/jimmycarr.png",
+	},
+	{
+		title: "Nina Kravitz, Interview",
+		date: new Date("2023-09-30T17:00:00.000Z"),
+		link: "https://www.eggworm.jp/hub/nina-kravitz-interview",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1695129943128-4BT0F5J8ZHP24OOH60ME/NinaKraviz5_credit_NicholasFols.JPG?format=2500w",
 	},
 	{
 		title: "Shima & Co, Launch",
