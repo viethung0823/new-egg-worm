@@ -6,10 +6,13 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {news} from "./data";
 // Import Swiper styles
 import "swiper/css";
+import {useTranslation} from "react-i18next";
 
 function News() {
 	const [swiperRef, setSwiperRef] = useState(null);
 	const [newsData, setNewsData] = useState(news);
+	const {i18n} = useTranslation();
+
 	useEffect(() => {
 		const $element1 = $(".home-news-content");
 		const $element2 = $(".fe-block-3284dc0550b8600a7274");
@@ -39,7 +42,7 @@ function News() {
 		<section className="home-news">
 			<header className="home-news-header">
 				<h2 className="home-news-title">HUB</h2>
-				<a href="https://www.eggworm.jp/hub" className="home-news-link arrow-button active">
+				<a href={`https://www.eggworm.jp/hub/category/${i18n.language}`} className="home-news-link arrow-button active">
 					<span className="text">View All</span> <span className="arrow"></span> <span className="line"></span>
 				</a>
 			</header>
@@ -63,8 +66,10 @@ function News() {
 					navigation={false}
 					className="mySwiper"
 				>
-					{newsData.map((item) => (
-						<SwiperSlide>
+					{newsData
+						.filter(item => item.language.includes(i18n.language))
+						.map((item) => (
+							<SwiperSlide>
 							<p className="news-item__date">{formatDate(item.date)}</p>
 							<a href={item.link}>
 								<p  className="news-item__link news-title">
