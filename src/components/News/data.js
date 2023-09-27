@@ -11,14 +11,14 @@ export const news = [
 		date: new Date("2023-09-28T17:00:00.000Z"),
 		link: "https://www.mixmagjapan.com/posts/nickstevensoninterview",
 		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1692965068410-3HMSZ8025X2CBB2P2JBM/Screenshot+2023-07-11+at+13.56.11.png?format=500w",
-		language: ["en", "jp"],
+		language: ["en"],
 	},
 	{
 		title: "Nina Kravitz, Interview",
 		date: new Date("2023-09-30T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/hub/nina-kravitz-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1695129943128-4BT0F5J8ZHP24OOH60ME/NinaKraviz5_credit_NicholasFols.JPG?format=2500w",
-		language: ["en", "jp"],
+		language: ["en"],
 	},
 	{
 		title: "Shima & Co, Launch",
@@ -39,7 +39,7 @@ export const news = [
 		date: new Date("2023-06-30T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/news/enter-japan-002-enter-the-right-way",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1691125477279-PQ19VY8F1576QNP42W3G/Newsletter+2.jpeg",
-		language: ["en", "jp"],
+		language: ["en"],
 	},
 	{
 		title: "Mixmag Website, Relaunch",
@@ -53,7 +53,7 @@ export const news = [
 		date: new Date("2023-05-31T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/news/enter-jp-001",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1689484207047-3ABIUHN3TCY9EQDX3YT7/market.png",
-		language: ["en", "jp"],
+		language: ["en"],
 	},
 	{
 		title: "BTV, Pop-Up",
