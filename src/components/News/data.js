@@ -11,7 +11,7 @@ export const news = [
 		date: new Date("2023-09-28T17:00:00.000Z"),
 		link: "https://www.mixmagjapan.com/posts/nickstevensoninterview",
 		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1692965068410-3HMSZ8025X2CBB2P2JBM/Screenshot+2023-07-11+at+13.56.11.png?format=500w",
-		language: ["en"],
+		language: ["jp"],
 	},
 	{
 		title: "Nina Kravitz, Interview",
@@ -19,6 +19,13 @@ export const news = [
 		link: "https://www.eggworm.jp/hub/nina-kravitz-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1695129943128-4BT0F5J8ZHP24OOH60ME/NinaKraviz5_credit_NicholasFols.JPG?format=2500w",
 		language: ["en"],
+	},
+	{
+		title: "Nina Kravitz, Interview",
+		date: new Date("2023-09-30T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/nina-kravitz",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1695129943128-4BT0F5J8ZHP24OOH60ME/NinaKraviz5_credit_NicholasFols.JPG?format=2500w",
+		language: ["jp"],
 	},
 	{
 		title: "Shima & Co, Launch",
