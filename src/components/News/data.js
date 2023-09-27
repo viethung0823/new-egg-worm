@@ -1,5 +1,12 @@
 export const news = [
 	{
+		title: "Alexandrion Group, Event",
+		date: new Date("2023-10-31T17:00:00.000Z"),
+		link: "https://alexandrionwinesandspirits.gr/",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1695800689342-I2CLP5D4TXWWMGT7GNX1/Screenshot+2023-09-27+094414.png?format=2500w",
+		language: ["en", "jp"],
+	},
+	{
 		title: "Jimmy Carr, Asia Launch",
 		date: new Date("2023-07-31T17:00:00.000Z"),
 		link: "https://www.jimmycarr.com/",
@@ -116,7 +123,7 @@ export const news = [
 		date: new Date("2022-10-31T17:00:00.000Z"),
 		link: "https://www.bbc.com/historyofthebbc/bbc-100/",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1692102084743-FF7RC1I6S5F88KLI2SPK/BBC.png",
-		language: ["en", "jp"],
+		language: ["en"],
 	},
 	{
 		title: "Remy Martin, Cocktail Competition",
