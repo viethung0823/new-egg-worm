@@ -1,21 +1,21 @@
 export const news = [
 	{
 		title: "EJ 003 - Acquire the Knowledge",
-		date: new Date("2023-10-31T17:00:00.000Z"),
+		date: new Date("2023-10-30T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/hub/enter-japan-003-acquire-the-knowledge",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1692103377659-LK5RTXFNOFMOPJA2GGB4/acquiretheknowledge.jpeg?format=1000w",
 		language: ["en"],
 	},
 	{
 		title: "Astrid Klein, Interview",
-		date: new Date("2023-10-30T17:00:00.000Z"),
+		date: new Date("2023-10-29T17:00:00.000Z"),
 		link: "https://www.mixmagjapan.com/posts/astrid-klein-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1696547982414-JDQK2ZZF7NYCB1NQ7IVI/Thumbnal+astrid.png?format=500w",
 		language: ["jp"],
 	},
 	{
-		title: "Alexandrion Group, Event",
-		date: new Date("2023-10-29T17:00:00.000Z"),
+		title: "Alexandrion Group, Launch",
+		date: new Date("2023-10-28T17:00:00.000Z"),
 		link: "https://alexandrionwinesandspirits.gr/",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1695800689342-I2CLP5D4TXWWMGT7GNX1/Screenshot+2023-09-27+094414.png?format=2500w",
 		language: ["en", "jp"],
