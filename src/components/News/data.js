@@ -1,10 +1,31 @@
 export const news = [
 	{
+		title: "Tommy Guerrero, Interview",
+		date: new Date("2023-10-24T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/tommy-guerrero-interview",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1697765370667-OWJ03S1DRFA81UF8LOR3/Tommy+cover+2.png?format=2500w",
+		language: ["jp"],
+	},
+	{
+		title: "Tommy Guerrero, Interview",
+		date: new Date("2023-10-24T17:00:00.000Z"),
+		link: "https://www.eggworm.jp/hub/tommy-guerrero-interview",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1697765370667-OWJ03S1DRFA81UF8LOR3/Tommy+cover+2.png?format=2500w",
+		language: ["en"],
+	},
+	{
 		title: "James Lavelle, Interview",
 		date: new Date("2023-10-23T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/hub/james-lavelle-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1696989960073-OVEBQR9AW785WB2GHRH5/James+Lavelle+social+image.png?format=1500w",
 		language: ["en"],
+	},
+	{
+		title: "James Lavelle, Interview",
+		date: new Date("2023-10-23T17:00:00.000Z"),
+		link: "https://www.mixmagjapan.com/posts/james-lavelle-interview",
+		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1696989960073-OVEBQR9AW785WB2GHRH5/James+Lavelle+social+image.png?format=1500w",
+		language: ["jp"],
 	},
 	{
 		title: "EJ 003 - Acquire the Knowledge",
