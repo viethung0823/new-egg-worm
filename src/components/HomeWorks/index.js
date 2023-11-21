@@ -36,7 +36,7 @@ function HomeWorks() {
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/ac09a66e-3604-425e-a1ef-fe2def98bb74/288020857_10159108756540698_9000293709595520415_n.jpeg?format=2500w",
 			title: "BRUICHLADDICH",
 			description: t("WOKR.1"),
-			url: "https://www.eggworm.jp/en/our-work/bruichladdich",
+			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-work/bruichladdich`,
 		},
 		{
 			id: 2,
