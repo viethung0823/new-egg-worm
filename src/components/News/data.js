@@ -1,5 +1,33 @@
 export const news = [
 	{
+        title: "Anton Wormann Interview",
+        date: new Date("2023-11-18T17:00:00.000Z"),
+        link: "https://www.mixmagjapan.com/posts/anton-wormann-interview",
+        img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1700099240928-AQ0KE9673HTXFT18717G/image0.jpeg?format=2500w",
+        language: ["jp"],
+    },
+    {
+        title: "Anton Wormann Interview",
+        date: new Date("2023-11-18T17:00:00.000Z"),
+        link: "https://www.eggworm.jp/thesocial/anton-wormann-interview",
+        img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1700099240928-AQ0KE9673HTXFT18717G/image0.jpeg?format=2500w",
+        language: ["en"],
+    },
+    {
+        title: "Holly Graham, Interview",
+        date: new Date("2023-11-03T17:00:00.000Z"),
+        link: "https://www.mixmagjapan.com/posts/holly-graham-interview",
+        img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1698828548618-41B9Z4Z4ABS4Y60VXMCX/Tokyo+Confidential+-+Holly+Graham+2+%28credit+Millie+Tang%29.jpg?format=2500w",
+        language: ["jp"],
+    },
+    {
+        title: "Holly Graham, Interview",
+        date: new Date("2023-11-03T17:00:00.000Z"),
+        link: "https://www.eggworm.jp/thesocial/holly-graham-interview",
+        img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1698828548618-41B9Z4Z4ABS4Y60VXMCX/Tokyo+Confidential+-+Holly+Graham+2+%28credit+Millie+Tang%29.jpg?format=2500w",
+        language: ["en"],
+    },
+	{
 		title: "Tommy Guerrero, Interview",
 		date: new Date("2023-10-24T17:00:00.000Z"),
 		link: "https://www.mixmagjapan.com/posts/tommy-guerrero-interview",
@@ -9,14 +37,14 @@ export const news = [
 	{
 		title: "Tommy Guerrero, Interview",
 		date: new Date("2023-10-24T17:00:00.000Z"),
-		link: "https://www.eggworm.jp/hub/tommy-guerrero-interview",
+		link: "https://www.eggworm.jp/thesocial/tommy-guerrero-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1697765370667-OWJ03S1DRFA81UF8LOR3/Tommy+cover+2.png?format=2500w",
 		language: ["en"],
 	},
 	{
 		title: "James Lavelle, Interview",
 		date: new Date("2023-10-23T17:00:00.000Z"),
-		link: "https://www.eggworm.jp/hub/james-lavelle-interview",
+		link: "https://www.eggworm.jp/thesocial/james-lavelle-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1696989960073-OVEBQR9AW785WB2GHRH5/James+Lavelle+social+image.png?format=1500w",
 		language: ["en"],
 	},
@@ -30,7 +58,7 @@ export const news = [
 	{
 		title: "EJ 003 - Acquire the Knowledge",
 		date: new Date("2023-10-22T17:00:00.000Z"),
-		link: "https://www.eggworm.jp/hub/enter-japan-003-acquire-the-knowledge",
+		link: "https://www.eggworm.jp/thesocial/enter-japan-003-acquire-the-knowledge",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1692103377659-LK5RTXFNOFMOPJA2GGB4/acquiretheknowledge.jpeg?format=1000w",
 		language: ["en"],
 	},
@@ -65,7 +93,7 @@ export const news = [
 	{
 		title: "Nina Kravitz, Interview",
 		date: new Date("2023-09-30T17:00:00.000Z"),
-		link: "https://www.eggworm.jp/hub/nina-kravitz-interview",
+		link: "https://www.eggworm.jp/thesocial/nina-kravitz-interview",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1695129943128-4BT0F5J8ZHP24OOH60ME/NinaKraviz5_credit_NicholasFols.JPG?format=2500w",
 		language: ["en"],
 	},
@@ -93,7 +121,7 @@ export const news = [
 	{
 		title: "EJ 002 - Enter the Right Way",
 		date: new Date("2023-06-30T17:00:00.000Z"),
-		link: "https://www.eggworm.jp/news/enter-japan-002-enter-the-right-way",
+		link: "https://www.eggworm.jp/thesocial/enter-japan-002-enter-the-right-way",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1691125477279-PQ19VY8F1576QNP42W3G/Newsletter+2.jpeg",
 		language: ["en"],
 	},
@@ -107,7 +135,7 @@ export const news = [
 	{
 		title: "EJ 001 - Discover Your Opportunity",
 		date: new Date("2023-05-31T17:00:00.000Z"),
-		link: "https://www.eggworm.jp/news/enter-jp-001",
+		link: "https://www.eggworm.jp/thesocial/enter-jp-001",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1689484207047-3ABIUHN3TCY9EQDX3YT7/market.png",
 		language: ["en"],
 	},
@@ -170,7 +198,7 @@ export const news = [
 	{
 		title: "Remy Martin, Cocktail Competition",
 		date: new Date("2022-09-30T17:00:00.000Z"),
-		link: "https://www.remymartin-bartendertalentcompetitionjp.com/",
+		link: "https://prtimes.jp/main/html/rd/p/000000206.000016452.html",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1692102610746-EUTUGFZOGCJVQIF47I40/remymartin.png",
 		language: ["en", "jp"],
 	},
