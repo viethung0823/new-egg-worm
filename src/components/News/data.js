@@ -1,6 +1,6 @@
 export const news = [
 	{
-        title: "Anton Wormann Interview",
+        title: "Anton Wormann, Interview",
         date: new Date("2023-11-18T17:00:00.000Z"),
         link: "https://www.mixmagjapan.com/posts/anton-wormann-interview",
         img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1700099240928-AQ0KE9673HTXFT18717G/image0.jpeg?format=2500w",
