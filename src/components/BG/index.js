@@ -164,7 +164,7 @@ function BG() {
 				</div>
 				<div className="gl-state-white"></div>
 				<div className="gl-statement-txt">
-					<h2 className="title1">OUR HISTORY</h2>
+					<h2 className="title1">OUR JOURNEY</h2>``
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
 						<span>{t("UH.text1")}</span>
