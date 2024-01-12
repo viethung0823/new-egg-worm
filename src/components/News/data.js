@@ -1,5 +1,19 @@
 export const news = [
 	{
+        title: "Shain Shapiro, Interview",
+        date: new Date("2023-12-28T17:00:00.000Z"),
+        link: "https://www.eggworm.jp/thesocial/shain-shapiro-interview",
+        img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1701929963349-FVRX5Y20EQLZ9QKJWDZC/Shain+Shapiro.png?format=2500w",
+        language: ["en"],
+	},
+	{
+        title: "Kenta Suzuki, Interview",
+        date: new Date("2024-01-04T17:00:00.000Z"),
+        link: "https://www.mixmagjapan.com/posts/kenta-suzuki-interview",
+        img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1704892467290-USMIC0XHJWKL7LCCOSW2/Screenshot+2024-01-10+214801.png",
+	  	language: ["jp"],
+	}, 
+	{
         title: "Anton Wormann, Interview",
         date: new Date("2023-11-18T17:00:00.000Z"),
         link: "https://www.mixmagjapan.com/posts/anton-wormann-interview",
