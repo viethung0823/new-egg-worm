@@ -2,6 +2,9 @@ import "./indexx.css";
 import React, {useEffect} from "react";
 import $ from "jquery";
 import {useTranslation} from "react-i18next";
+import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import {dataTimeline} from "./dataTimeline";
 
 function BG() {
 	useEffect(() => {
@@ -144,13 +147,21 @@ function BG() {
 		const $element2 = $("#gl-statement");
 		onScroll();
 		$element2.after($element1);
+
+		// rando size timeline
+		document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
+			var max = element.offsetWidth - element.childNodes[1].offsetWidth - 60;
+			var randomNum = Math.floor(Math.random() * max);
+			element.childNodes[0].style.width = randomNum + "px";
+		});
+
 		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
 
 	const {t} = useTranslation();
 
 	return (
-		<>
+		<div id="our-journal">
 			<section id="gl-statement">
 				<div className="gl-state-copyset">
 					<div className="gl-state-copy">
@@ -203,7 +214,23 @@ function BG() {
 					</p>
 				</div>
 			</section>
-		</>
+
+			<VerticalTimeline className="eggwrom-timeline" lineColor={"#fff"}>
+				{Object.entries(dataTimeline).map(([year, events]) => (
+					<VerticalTimelineElement>
+						<h3 className="title">{year}</h3>
+						<ul>
+							{events.map((event) => (
+								<li>
+									<div className="item-line"></div>
+									<p>{event}</p>
+								</li>
+							))}
+						</ul>
+					</VerticalTimelineElement>
+				))}
+			</VerticalTimeline>
+		</div>
 	);
 }
 
