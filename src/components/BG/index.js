@@ -149,11 +149,23 @@ function BG() {
 		$element2.after($element1);
 
 		// rando size timeline
-		document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
-			var max = element.offsetWidth - element.childNodes[1].offsetWidth - 60;
-			var randomNum = Math.floor(Math.random() * max);
-			element.childNodes[0].style.width = randomNum + "px";
-		});
+		if (window.matchMedia("(max-width: 768px)").matches) {
+			console.log("run");
+			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
+				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 32;
+
+				if (element.childNodes[1].offsetWidth > element.offsetWidth * 0.72) {
+					max = 0;
+				}
+				element.childNodes[0].style.width = max + "px";
+			});
+		} else {
+			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
+				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 60;
+				var randomNum = Math.floor(Math.random() * max);
+				element.childNodes[0].style.width = randomNum + "px";
+			});
+		}
 
 		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
