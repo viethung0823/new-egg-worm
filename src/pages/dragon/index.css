@@ -1,3 +1,111 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+html {
+  height: 100%;
+  min-height: 100vh
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: 400
+}
+
+ol,
+ul,
+dl,
+dt,
+dd {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+table,
+thead,
+tbody,
+tr,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline
+}
+
+p {
+  margin: 0
+}
+
+a {
+  text-decoration: none;
+  color: #9F9F9F;
+  outline: none
+}
+
+i {
+  font-style: inherit
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none
+}
+
+hr {
+  margin: 0;
+  border: none
+}
+
+[type="text"],
+[type="password"],
+[type="email"],
+[type="number"],
+[type="tel"] {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  line-height: 1.4
+}
+
+
 body {
   background: #fff;
   position: relative;

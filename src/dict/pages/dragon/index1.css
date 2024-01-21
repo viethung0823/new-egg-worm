@@ -1,3 +1,102 @@
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+html {
+  height: 100%;
+  min-height: 100vh
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  margin: 0
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+  padding: 0
+}
+
+dd,
+dl,
+dt,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+table,
+tbody,
+td,
+thead,
+tr {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: initial
+}
+
+p {
+  margin: 0
+}
+
+a {
+  color: #9f9f9f;
+  outline: none;
+  text-decoration: none
+}
+
+i {
+  font-style: inherit
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 0
+}
+
+button,
+hr {
+  border: none;
+  margin: 0
+}
+
+[type=email],
+[type=number],
+[type=password],
+[type=tel],
+[type=text] {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  line-height: 1.4;
+  margin: 0;
+  outline: none;
+  padding: 0
+}
+
 body {
   background: #fff;
   position: relative
@@ -264,4 +363,4 @@ h2.title {
   }
 }
 
-/*# sourceMappingURL=main.155f4659.css.map*/
+/*# sourceMappingURL=main.b67f7ef2.css.map*/
