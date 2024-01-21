@@ -4,7 +4,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {I18nextProvider} from "react-i18next";
 import i18n from "./i18n";
-import BG from "./components/BG"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

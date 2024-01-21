@@ -3175,7 +3175,7 @@ html.is-ipad .home-works-item__inner {
   scrollbar-width: none;
 }
 
-.our-business__button .hover::-webkit-scrollbar  {
+.our-business__button .hover::-webkit-scrollbar {
   width: 0;
   background-color: transparent;
 }
@@ -10889,7 +10889,7 @@ input[type="checkbox"]:checked+.security-check-label span:before {
   width: 100%;
   cursor: pointer;
   object-fit: cover;
-  object-position: center;
+  object-position: top center;
   aspect-ratio: 719/403;
   transition: 0.5s ease;
   filter: grayscale();
