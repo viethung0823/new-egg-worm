@@ -1,0 +1,267 @@
+body {
+  background: #fff;
+  position: relative
+}
+
+body:before {
+  background: url(/static/media/dragronBackgroun.18140ac94c722f9ac121.png);
+  background-size: cover;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: .15;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1
+}
+
+.dragonPage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative;
+  z-index: 100
+}
+
+.divider {
+  align-self: stretch;
+  background: #c6c6c6;
+  height: 1px;
+  margin: 24px 0
+}
+
+.asWe {
+  font-size: 18px;
+  font-weight: 600
+}
+
+.asWe,
+.jpText {
+  color: #434343;
+  font-family: Noto Sans, sans-serif;
+  font-style: normal;
+  line-height: 140%;
+  text-align: center
+}
+
+.jpText {
+  font-size: 16px;
+  font-weight: 500
+}
+
+h2.title {
+  color: #8a7000;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 44px
+}
+
+.byEggorm,
+h2.title {
+  font-family: Noto Sans, sans-serif;
+  line-height: 121%;
+  text-align: center
+}
+
+.byEggorm {
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 12px
+}
+
+.dragon2024 {
+  background: url(/static/media/dragon2024.67107e8038ed5e90fa02.png) 50% no-repeat;
+  background-size: contain;
+  padding-bottom: 100%
+}
+
+.dragon2024,
+.gallaryStack {
+  position: relative;
+  width: 94%
+}
+
+.gallaryStack {
+  margin-bottom: 48px;
+  padding-bottom: 52%
+}
+
+.gallary1 {
+  background: url(/static/media/gallary1.2b05756730e18873b56f.png) 50% no-repeat;
+  background-size: cover;
+  margin-top: 62.5px
+}
+
+.gallary2 {
+  background: url(/static/media/gallary2.c8a9f5a6f8d2227299ee.png) 50% no-repeat;
+  background-size: cover;
+  margin-top: 48px
+}
+
+.gallary3 {
+  background: url(/static/media/gallary3.2f2490cc1abc5e9feaeb.png) 50% no-repeat;
+  background-size: contain;
+  margin-top: 48px
+}
+
+.gallary4 {
+  background: url(/static/media/gallary4.f9eccc92302f0c3cebf2.png) 50% no-repeat;
+  background-size: cover;
+  margin-top: 48px
+}
+
+.blockText {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.block-2 {
+  gap: 20px
+}
+
+.block-2 p {
+  text-align: center
+}
+
+.mt20 {
+  margin-top: 20px
+}
+
+.dragonPageFooter {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 0 100px
+}
+
+.eggwormlogo {
+  background: url(/static/media/logoEggwom.d0d2f1da578f8928c9c3.svg) 50% no-repeat;
+  background-size: contain;
+  height: 109px;
+  position: relative;
+  width: 109px
+}
+
+.footerRight {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center
+}
+
+.footerTitle {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center
+}
+
+.footerSub,
+.footerTitle {
+  color: #434343;
+  font-family: Noto Sans, sans-serif;
+  font-style: normal;
+  line-height: 140%
+}
+
+.footerSub {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: right
+}
+
+@media (min-width:1169px) {
+  .dragon2024 {
+    margin-top: 48px
+  }
+}
+
+@media (min-width:768px) and (max-width:1168px) {
+  .dragonPage {
+    max-width: 90vw
+  }
+}
+
+@media (max-width:768px) {
+  .block-1 {
+    padding: 44px 32px 24px
+  }
+
+  .block-2 {
+    padding: 24px 32px
+  }
+
+  h2.title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0
+  }
+
+  .byEggorm {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500
+  }
+
+  .divider {
+    margin: 16px 0
+  }
+
+  .asWe {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%
+  }
+
+  .asWe,
+  .jpText {
+    font-style: normal
+  }
+
+  .jpText {
+    font-size: 14px;
+    font-weight: 500
+  }
+
+  .gallaryStack {
+    margin-bottom: 0;
+    padding-bottom: 66%;
+    width: 100%
+  }
+
+  .gallary1,
+  .gallary2,
+  .gallary3,
+  .gallary4 {
+    margin-top: 0
+  }
+
+  .dragonPageFooter {
+    padding: 24px 40px 30px
+  }
+
+  .eggwormlogo {
+    height: 60px;
+    width: 60px
+  }
+
+  .footerSub,
+  .footerTitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%
+  }
+}
+
+/*# sourceMappingURL=main.8cec7c3d.css.map*/
