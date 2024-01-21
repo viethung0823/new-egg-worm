@@ -1,4 +1,4 @@
-/*! For license information please see main.c6669a35.js.LICENSE.txt */
+/*! For license information please see main.676e5d17.js.LICENSE.txt */
 !(function () {
 	var e = {
 			948: function (e) {
@@ -19174,7 +19174,7 @@
 			});
 			ft.displayName = "SwiperSlide";
 			var dt = [
-				{title: "Eggworm's Dance with the Dragon", date: new Date("2024-1-24T17:00:00.000Z"), link: "https://www.eggworm.jp/thesocial/eggworms-dance-with-the-dragon", img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1705821026247-YJ5ZLVJBPZP46I2FQAEV/dragon2024.png?format=2500w", language: ["en", "jp"]},
+				{title: "Eggworm's Dance with the Dragon", date: new Date("2024-01-24T17:00:00.000Z"), link: "https://www.eggworm.jp/thesocial/eggworms-dance-with-the-dragon", img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1705821026247-YJ5ZLVJBPZP46I2FQAEV/dragon2024.png?format=2500w", language: ["en", "jp"]},
 				{title: "Shain Shapiro, Interview", date: new Date("2023-12-28T17:00:00.000Z"), link: "https://www.eggworm.jp/thesocial/shain-shapiro-interview", img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1701929963349-FVRX5Y20EQLZ9QKJWDZC/Shain+Shapiro.png?format=2500w", language: ["en"]},
 				{title: "Kenta xxx, Interview", date: new Date("2024-01-04T17:00:00.000Z"), link: "https://www.mixmagjapan.com/posts/kenta-suzuki-interview", img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1704892467290-USMIC0XHJWKL7LCCOSW2/Screenshot+2024-01-10+214801.png", language: ["jp"]},
 				{title: "Anton Wormann, Interview", date: new Date("2023-11-18T17:00:00.000Z"), link: "https://www.mixmagjapan.com/posts/anton-wormann-interview", img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1700099240928-AQ0KE9673HTXFT18717G/image0.jpeg?format=2500w", language: ["jp"]},
@@ -21765,4 +21765,4 @@
 			t.createRoot(document.getElementById("root")).render((0, z.jsx)(M, {i18n: _n, children: (0, z.jsx)(mt, {})}), document.getElementById("root")), bt();
 		})();
 })();
-//# sourceMappingURL=main.c6669a35.js.map
+//# sourceMappingURL=main.676e5d17.js.map

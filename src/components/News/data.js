@@ -1,7 +1,7 @@
 export const news = [
 	{
 		title: "Eggworm's Dance with the Dragon",
-		date: new Date("2024-1-24T17:00:00.000Z"),
+		date: new Date("2024-01-24T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/thesocial/eggworms-dance-with-the-dragon",
 		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1705821026247-YJ5ZLVJBPZP46I2FQAEV/dragon2024.png?format=2500w",
 		language: ["en", "jp"],
