@@ -4,7 +4,7 @@ body {
 }
 
 body:before {
-  background: url(/static/media/dragronBackgroun.18140ac94c722f9ac121.png);
+  background: url(https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/dragronBackgroun.png);
   background-size: cover;
   bottom: 0;
   content: "";
@@ -76,7 +76,7 @@ h2.title {
 }
 
 .dragon2024 {
-  background: url(/static/media/dragon2024.67107e8038ed5e90fa02.png) 50% no-repeat;
+  background: url(https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/dragon2024.png) 50% no-repeat;
   background-size: contain;
   padding-bottom: 100%
 }
@@ -93,25 +93,25 @@ h2.title {
 }
 
 .gallary1 {
-  background: url(/static/media/gallary1.2b05756730e18873b56f.png) 50% no-repeat;
+  background: url(https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary1.png) 50% no-repeat;
   background-size: cover;
   margin-top: 62.5px
 }
 
 .gallary2 {
-  background: url(/static/media/gallary2.c8a9f5a6f8d2227299ee.png) 50% no-repeat;
+  background: url(https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary2.png) 50% no-repeat;
   background-size: cover;
   margin-top: 48px
 }
 
 .gallary3 {
-  background: url(/static/media/gallary3.2f2490cc1abc5e9feaeb.png) 50% no-repeat;
+  background: url(https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary3.png) 50% no-repeat;
   background-size: contain;
   margin-top: 48px
 }
 
 .gallary4 {
-  background: url(/static/media/gallary4.f9eccc92302f0c3cebf2.png) 50% no-repeat;
+  background: url(https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary4.png) 50% no-repeat;
   background-size: cover;
   margin-top: 48px
 }
@@ -145,7 +145,7 @@ h2.title {
 }
 
 .eggwormlogo {
-  background: url(/static/media/logoEggwom.d0d2f1da578f8928c9c3.svg) 50% no-repeat;
+  background: url(https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/logoEggwom.svg) 50% no-repeat;
   background-size: contain;
   height: 109px;
   position: relative;
@@ -264,4 +264,4 @@ h2.title {
   }
 }
 
-/*# sourceMappingURL=main.8cec7c3d.css.map*/
+/*# sourceMappingURL=main.155f4659.css.map*/

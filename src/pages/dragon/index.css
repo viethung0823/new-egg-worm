@@ -10,7 +10,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../../assets/pages/dragon/dragronBackgroun.png');
+  background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/dragronBackgroun.png');
   background-size: cover;
   opacity: 0.15;
   z-index: -1;
@@ -80,7 +80,7 @@ h2.title {
 
 
 .dragon2024 {
-  background: url('../../assets/pages/dragon/dragon2024.png') center no-repeat;
+  background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/dragon2024.png') center no-repeat;
   width: 94%;
   padding-bottom: 100%;
   background-size: contain;
@@ -96,25 +96,25 @@ h2.title {
 
 .gallary1 {
   margin-top: 62.5px;
-  background: url('../../assets/pages/dragon/gallary1.png') center no-repeat;
+  background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary1.png') center no-repeat;
   background-size: cover;
 }
 
 .gallary2 {
   margin-top: 48px;
-  background: url('../../assets/pages/dragon/gallary2.png') center no-repeat;
+  background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary2.png') center no-repeat;
   background-size: cover;
 }
 
 .gallary3 {
   margin-top: 48px;
-  background: url('../../assets/pages/dragon/gallary3.png') center no-repeat;
+  background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary3.png') center no-repeat;
   background-size: contain;
 }
 
 .gallary4 {
   margin-top: 48px;
-  background: url('../../assets/pages/dragon/gallary4.png') center no-repeat;
+  background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary4.png') center no-repeat;
   background-size: cover;
 }
 
@@ -149,7 +149,7 @@ h2.title {
 .eggwormlogo {
   width: 109px;
   height: 109px;
-  background: url('../../assets/pages/dragon/logoEggwom.svg') center no-repeat;
+  background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/logoEggwom.svg') center no-repeat;
   background-size: contain;
   position: relative;
 }
