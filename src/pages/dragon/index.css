@@ -197,7 +197,7 @@ h2.title {
 
 .gallaryStack {
   width: 94%;
-  padding-bottom: 52%;
+  padding-bottom: 51%;
   position: relative;
   margin-bottom: 48px;
 }
@@ -223,6 +223,7 @@ h2.title {
 .gallary4 {
   margin-top: 48px;
   background: url('https://raw.githubusercontent.com/TomokoEG/new-egg-worm/main/src/assets/pages/dragon/gallary4.png') center no-repeat;
+  padding-bottom: 53%;
   background-size: cover;
 }
 
