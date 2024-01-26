@@ -10,7 +10,7 @@ export const news = [
 		title: "Shain Shapiro, Interview",
 		date: new Date("2023-12-28T17:00:00.000Z"),
 		link: "https://www.eggworm.jp/thesocial/shain-shapiro-interview",
-		img: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1701929963349-FVRX5Y20EQLZ9QKJWDZC/Shain+Shapiro.png?format=2500w",
+		img: "https://images.squarespace-cdn.com/content/v1/6465baf2d00ad7078486fd8f/1702025527799-WJ2M3XDLYNV7PSPOGYD7/Shain+Shapiro+3.png?format=500w",
 		language: ["en"],
 	},
 	{
