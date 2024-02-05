@@ -148,9 +148,8 @@ function BG() {
 		onScroll();
 		$element2.after($element1);
 
-		// rando size timeline
+		// random size timeline
 		if (window.matchMedia("(max-width: 768px)").matches) {
-			console.log("run");
 			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
 				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 32;
 
@@ -161,8 +160,13 @@ function BG() {
 			});
 		} else {
 			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
-				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 60;
+				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 30;
 				var randomNum = Math.floor(Math.random() * max);
+				if (element.childNodes[1].offsetWidth > element.offsetWidth * 0.2) {
+					console.log("element.childNodes[1]", element.childNodes[1], element.childNodes[1].offsetWidth, max);
+					var min = 60;
+					randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+				}
 				element.childNodes[0].style.width = randomNum + "px";
 			});
 		}
