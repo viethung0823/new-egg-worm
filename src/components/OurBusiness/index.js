@@ -115,7 +115,7 @@ function OurBusiness() {
 				</ul>
 			</section>
 			<section className="our-services">
-				<h3 className="our-services__title">Other business</h3>
+				<h3 className="our-services__title">{t("OS.title")}</h3>
 				<ul className="our-services-list">
 					{otherBusinessList.map((item, index) => (
 						<li className={`our-services-item ${hoveredIndex === index ? "active" : ""}`} onMouseEnter={() => (!isTouchDevice ? setHoveredIndex(index) : undefined)} onMouseLeave={() => (!isTouchDevice ? setHoveredIndex(null) : undefined)} onClick={() => handleNavigate(index)}>

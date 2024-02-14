@@ -1,7 +1,10 @@
-import "./indexx.css";
+import "./index.css";
 import React, {useEffect} from "react";
 import $ from "jquery";
 import {useTranslation} from "react-i18next";
+import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import {dataTimeline} from "./dataTimeline";
 
 function BG() {
 	useEffect(() => {
@@ -144,13 +147,37 @@ function BG() {
 		const $element2 = $("#gl-statement");
 		onScroll();
 		$element2.after($element1);
+
+		// random size timeline
+		if (window.matchMedia("(max-width: 768px)").matches) {
+			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
+				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 32;
+
+				if (element.childNodes[1].offsetWidth > element.offsetWidth * 0.72) {
+					max = 0;
+				}
+				element.childNodes[0].style.width = max + "px";
+			});
+		} else {
+			document.querySelectorAll(".vertical-timeline-element-content li").forEach(function (element) {
+				var max = element.offsetWidth - element.childNodes[1].offsetWidth - 30;
+				var randomNum = Math.floor(Math.random() * max);
+				if (element.childNodes[1].offsetWidth > element.offsetWidth * 0.2) {
+					console.log("element.childNodes[1]", element.childNodes[1], element.childNodes[1].offsetWidth, max);
+					var min = 60;
+					randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+				}
+				element.childNodes[0].style.width = randomNum + "px";
+			});
+		}
+
 		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
 
 	const {t} = useTranslation();
 
 	return (
-		<>
+		<div id="our-journal">
 			<section id="gl-statement">
 				<div className="gl-state-copyset">
 					<div className="gl-state-copy">
@@ -164,7 +191,7 @@ function BG() {
 				</div>
 				<div className="gl-state-white"></div>
 				<div className="gl-statement-txt">
-					<h2 className="title1">OUR HISTORY</h2>
+					<h2 className="title1">OUR JOURNEY</h2>``
 					<p className="gl-state-intxt">
 						<span className="gl-state-line"></span>
 						<span>{t("UH.text1")}</span>
@@ -203,7 +230,23 @@ function BG() {
 					</p>
 				</div>
 			</section>
-		</>
+
+			<VerticalTimeline className="eggwrom-timeline" lineColor={"#fff"}>
+				{Object.entries(dataTimeline).map(([year, events]) => (
+					<VerticalTimelineElement>
+						<h3 className="title">{year}</h3>
+						<ul>
+							{events.map((event) => (
+								<li>
+									<div className="item-line"></div>
+									<p>{event}</p>
+								</li>
+							))}
+						</ul>
+					</VerticalTimelineElement>
+				))}
+			</VerticalTimeline>
+		</div>
 	);
 }
 

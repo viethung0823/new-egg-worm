@@ -36,21 +36,21 @@ function HomeWorks() {
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/ac09a66e-3604-425e-a1ef-fe2def98bb74/288020857_10159108756540698_9000293709595520415_n.jpeg?format=2500w",
 			title: "BRUICHLADDICH",
 			description: t("WOKR.1"),
-			url: "https://www.eggworm.jp/en/our-work/bruichladdich",
+			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-works/bruichladdich`,
 		},
 		{
 			id: 2,
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1596417754268-0HYZGZ8BXFKG20TNHSEK/107051076_2987167684885523_3111168653457907190_n.jpg",
 			title: "TAXI OVATION",
 			description: t("WOKR.2"),
-			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-work/taxi-ovation`,
+			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-works/taxi-ovation`,
 		},
 		{
 			id: 3,
 			imgLink: "https://images.squarespace-cdn.com/content/v1/5eb624a9707ef42c472b42ec/1596418713811-XAM7LLHGZWOES91AAL3D/28161740_10155415421745698_2751362336498237194_o_10155415421745698.jpg",
 			title: "ONITSUKA TIGER",
 			description: t("WOKR.3"),
-			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-work/onitsuka-tiger`,
+			url: `https://www.eggworm.jp/${isJapanese ? 'jp' : 'en'}/our-works/onitsuka-tiger`,
 		},
 	];
 
@@ -82,7 +82,7 @@ function HomeWorks() {
 				))}
 			</div>
 			<footer className="home-works-footer">
-				<a href={i18n.language === "jp" ? "https://www.eggworm.jp/jp/our-work" :"https://www.eggworm.jp/en/our-work"} className="home-works-footer__link">
+				<a href={i18n.language === "jp" ? "https://www.eggworm.jp/jp/our-works" :"https://www.eggworm.jp/en/our-works"} className="home-works-footer__link">
 				{t("WOKR.all")}<span></span>
 				</a>
 			</footer>

@@ -1,0 +1,21 @@
+<script>
+  document.getElementById( 'siteWrapper' ).style.display = 'none';
+  var newDiv = document.createElement( "div" );
+  newDiv.setAttribute( "id", "root" );
+  document.body.appendChild( newDiv );
+  var link1 = document.createElement( "link" );
+  link1.setAttribute( "rel", "stylesheet" );
+  link1.setAttribute( "href", "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" );
+
+  var script = document.createElement( "script" );
+  script.setAttribute( "defer", "defer" );
+  script.setAttribute( "src", "https://cdn.jsdelivr.net/gh/TomokoEG/new-egg-worm@latest/src/dict/pages/dragon/index.min.js" );
+
+  var link2 = document.createElement( "link" );
+  link2.setAttribute( "rel", "stylesheet" );
+  link2.setAttribute( "href", "https://cdn.jsdelivr.net/gh/TomokoEG/new-egg-worm@latest/src/dict/pages/dragon/index1.min.css" );
+
+  document.head.appendChild( link1 );
+  document.head.appendChild( script );
+  document.head.appendChild( link2 );
+</script>
