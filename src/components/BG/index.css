@@ -331,6 +331,7 @@ span {
   background-color: #000;
 
   .eggwrom-timeline {
+    overflow: hidden;
 
     .vertical-timeline-element-content {
       color: #fff;
@@ -347,6 +348,7 @@ span {
     .vertical-timeline-element:nth-child(even) .title {
       display: flex;
       justify-content: end;
+      margin-right: -7.8px;
     }
 
     /* even li */
